@@ -1,7 +1,53 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "1630237301633e3039": {
+      "type": "multicolumn",
+      "blocks": {
+        "1630237301633e3039-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Favicon.png",
+            "title": "Osoba 1",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1630237301633e3039-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Favicon.png",
+            "title": "Osoba 2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1630237301633e3039-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Favicon.png",
+            "title": "Osoba 3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630237301633e3039-0",
+        "1630237301633e3039-1",
+        "1630237301633e3039-2"
+      ],
+      "settings": {
+        "title": "Náš tým",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
     },
     "form": {
       "type": "contact-form",
@@ -12,6 +58,7 @@
   },
   "order": [
     "main",
+    "1630237301633e3039",
     "form"
   ]
 }
