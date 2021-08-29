@@ -35,21 +35,22 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Důležité odkazy",
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "text",
+          "56f44f14-be69-4a55-8cb6-6a01e7535811": {
+            "type": "image",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "image": "shopify:\/\/shop_images\/iParada_logo.png",
+              "image_width": 80,
+              "alignment": "right"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "56f44f14-be69-4a55-8cb6-6a01e7535811"
         ],
         "settings": {
           "color_scheme": "accent-1",
