@@ -403,5 +403,10 @@
       "copy_code_success": "Kód byl úspěšně zkopírován",
       "print_gift_card": "Vytisknout"
     }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    }
   }
 }
