@@ -5,6 +5,18 @@
       "settings": {
       }
     },
+    "1630238552969cb23a": {
+      "type": "image-banner",
+      "settings": {
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1630238471da2820ed": {
       "type": "multicolumn",
       "blocks": {
@@ -41,7 +53,7 @@
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
       }
@@ -49,6 +61,7 @@
   },
   "order": [
     "main",
+    "1630238552969cb23a",
     "1630238471da2820ed"
   ]
 }
