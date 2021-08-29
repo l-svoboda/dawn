@@ -57,11 +57,81 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1630238560255bdb5d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1630238560255bdb5d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1630238560255bdb5d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1630238560255bdb5d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1630238560255bdb5d-0",
+        "1630238560255bdb5d-1",
+        "1630238560255bdb5d-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "163023860866914110": {
+      "type": "image-with-text",
+      "blocks": {
+        "163023860866914110-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "163023860866914110-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "163023860866914110-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163023860866914110-0",
+        "163023860866914110-1",
+        "163023860866914110-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
     "main",
     "1630238552969cb23a",
-    "1630238471da2820ed"
+    "1630238471da2820ed",
+    "1630238560255bdb5d",
+    "163023860866914110"
   ]
 }
