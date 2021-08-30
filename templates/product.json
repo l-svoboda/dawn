@@ -52,7 +52,7 @@
         "share": {
           "type": "share",
           "settings": {
-            "share_label": "Share"
+            "share_label": "Sdílet"
           }
         }
       },
@@ -91,27 +91,19 @@
         "16302312430268f962-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Stav"
           }
         },
         "16302312430268f962-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "16302312430268f962-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "text": "<p>iPhony rozdělujeme do nekolika kategorii podle jejich stavu<\/p>"
           }
         }
       },
       "block_order": [
         "16302312430268f962-0",
-        "16302312430268f962-1",
-        "16302312430268f962-2"
+        "16302312430268f962-1"
       ],
       "settings": {
         "height": "adapt",
