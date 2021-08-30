@@ -23,21 +23,24 @@
         "1630238471da2820ed-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/Favicon.png",
+            "title": "Osoba 1",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "1630238471da2820ed-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/Favicon.png",
+            "title": "Osoba 2",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "1630238471da2820ed-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/Favicon.png",
+            "title": "Osoba 3",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
@@ -64,27 +67,19 @@
         "1630238560255bdb5d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Kdo jsme?"
           }
         },
         "1630238560255bdb5d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1630238560255bdb5d-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "text": "<p>Za iParádou stojí nadšenci do značky Apple, kteří ve velkoobchodní sféře působí přes 17 let. Jsme hlavním distributorem použitých telefonů v centrální Evropě a zásobujeme nejen Českou republiku, ale i Skandinávii, Řecko, Rumunsko nebo část Německa.<\/p>"
           }
         }
       },
       "block_order": [
         "1630238560255bdb5d-0",
-        "1630238560255bdb5d-1",
-        "1630238560255bdb5d-2"
+        "1630238560255bdb5d-1"
       ],
       "settings": {
         "height": "adapt",
@@ -98,27 +93,19 @@
         "163023860866914110-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Proč je zboží tak levné?"
           }
         },
         "163023860866914110-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "163023860866914110-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "text": "<p>Zboží v nabídce je přímo od distributora, není zde mezičlánek, který by cenu navýšil, proto jsou částky tak nízké.<\/p>"
           }
         }
       },
       "block_order": [
         "163023860866914110-0",
-        "163023860866914110-1",
-        "163023860866914110-2"
+        "163023860866914110-1"
       ],
       "settings": {
         "height": "adapt",
