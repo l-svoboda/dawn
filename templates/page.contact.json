@@ -5,6 +5,32 @@
       "settings": {
       }
     },
+    "16303203716fabc186": {
+      "type": "image-with-text",
+      "blocks": {
+        "16303203716fabc186-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kde nas najdete"
+          }
+        },
+        "16303203716fabc186-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>V budově Nile House naleznete naší výdejnu, kde vás rádi uvítáme po předchozí domluvě.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16303203716fabc186-0",
+        "16303203716fabc186-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
     "1630237665e619a380": {
       "type": "custom-liquid",
       "settings": {
@@ -20,6 +46,7 @@
   },
   "order": [
     "main",
+    "16303203716fabc186",
     "1630237665e619a380",
     "form"
   ]
