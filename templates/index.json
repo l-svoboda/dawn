@@ -46,7 +46,7 @@
           "settings": {
             "collection": "iphone",
             "image_padding": true,
-            "color_scheme": "background-1"
+            "color_scheme": "accent-1"
           }
         },
         "65a3e99d-51cd-40e9-9983-335ed6f9c358": {
@@ -54,7 +54,7 @@
           "settings": {
             "collection": "ipad",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "accent-2"
           }
         },
         "b8ef2b4c-8aa0-4256-9122-fb0f696cd5b1": {
@@ -104,7 +104,7 @@
         "16303206574f9f705b-2"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "full_width": false
       }
     },
