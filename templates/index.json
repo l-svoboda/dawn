@@ -36,6 +36,32 @@
         "show_text_below": true
       }
     },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Naše poslání",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Posláním iParády je zpřístupnit produkty Apple všem. Bez rozdílu. <strong>V limitovaném počtu a po omezený čas <\/strong>nabízíme zánovní a použité telefony, tablety a další příslušenství značky Apple <strong>za bezkonkurenční ceny.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -75,36 +101,10 @@
         "mobile_layout": "collage"
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Naše poslání",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Posláním iParády je zpřístupnit produkty Apple všem. Bez rozdílu. <strong>V limitovaném počtu a po omezený čas <\/strong>nabízíme zánovní a použité telefony, tablety a další příslušenství značky Apple <strong>za bezkonkurenční ceny.<\/strong><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Ve slevě",
         "collection": "all",
         "products_to_show": 4,
         "show_view_all": true,
@@ -184,8 +184,8 @@
   },
   "order": [
     "image_banner",
-    "collage",
     "rich_text",
+    "collage",
     "featured_products",
     "16303188514438b695",
     "video",
