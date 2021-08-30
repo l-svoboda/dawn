@@ -5,7 +5,7 @@
     "colors_accent_2": "#92b3d4",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#00a571",
-    "colors_background_1": "#FFFFFF",
+    "colors_background_1": "#ffffff",
     "colors_background_2": "#f5df10",
     "type_header_font": "futura_n5",
     "type_body_font": "futura_n4",
@@ -24,7 +24,6 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/iParada_logo.png",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",

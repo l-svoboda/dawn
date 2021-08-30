@@ -46,7 +46,7 @@
           "settings": {
             "collection": "iphone",
             "image_padding": true,
-            "color_scheme": "accent-1"
+            "color_scheme": "background-2"
           }
         },
         "65a3e99d-51cd-40e9-9983-335ed6f9c358": {
@@ -62,7 +62,7 @@
           "settings": {
             "collection": "watch",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "accent-1"
           }
         }
       },
