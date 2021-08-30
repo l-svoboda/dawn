@@ -117,6 +117,16 @@
         "show_rating": false
       }
     },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "Unboxing",
+        "cover_image": "shopify:\/\/shop_images\/iParada_logo_82027d76-fdd3-413e-abd7-e3b0239e4560.png",
+        "video_url": "",
+        "description": "",
+        "full_width": false
+      }
+    },
     "16303188514438b695": {
       "type": "featured-blog",
       "settings": {
@@ -128,16 +138,6 @@
         "show_author": false,
         "soft_background": false,
         "show_view_all": true
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Unboxing",
-        "cover_image": "shopify:\/\/shop_images\/iParada_logo_82027d76-fdd3-413e-abd7-e3b0239e4560.png",
-        "video_url": "",
-        "description": "",
-        "full_width": false
       }
     },
     "multi_column": {
@@ -174,7 +174,7 @@
         "title": "Proč zrovna nástroje",
         "image_width": "full",
         "image_ratio": "adapt",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -187,8 +187,8 @@
     "rich_text",
     "collage",
     "featured_products",
-    "16303188514438b695",
     "video",
+    "16303188514438b695",
     "multi_column"
   ]
 }
