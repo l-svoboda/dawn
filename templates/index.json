@@ -36,6 +36,45 @@
         "show_text_below": true
       }
     },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "8acb6962-c4c7-4312-a735-55855a558c5e": {
+          "type": "collection",
+          "settings": {
+            "collection": "iphone",
+            "image_padding": true,
+            "color_scheme": "background-1"
+          }
+        },
+        "65a3e99d-51cd-40e9-9983-335ed6f9c358": {
+          "type": "collection",
+          "settings": {
+            "collection": "ipad",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "b8ef2b4c-8aa0-4256-9122-fb0f696cd5b1": {
+          "type": "collection",
+          "settings": {
+            "collection": "watch",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "8acb6962-c4c7-4312-a735-55855a558c5e",
+        "65a3e99d-51cd-40e9-9983-335ed6f9c358",
+        "b8ef2b4c-8aa0-4256-9122-fb0f696cd5b1"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -78,44 +117,17 @@
         "show_rating": false
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/iParada_logo_82027d76-fdd3-413e-abd7-e3b0239e4560.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": true
-          }
-        },
-        "8acb6962-c4c7-4312-a735-55855a558c5e": {
-          "type": "collection",
-          "settings": {
-            "collection": "iphone",
-            "image_padding": true,
-            "color_scheme": "background-1"
-          }
-        },
-        "65a3e99d-51cd-40e9-9983-335ed6f9c358": {
-          "type": "collection",
-          "settings": {
-            "collection": "ipad",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "video",
-        "8acb6962-c4c7-4312-a735-55855a558c5e",
-        "65a3e99d-51cd-40e9-9983-335ed6f9c358"
-      ],
+    "16303188514438b695": {
+      "type": "featured-blog",
       "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
+        "heading": "Blog posts",
+        "blog": "news",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "soft_background": false,
+        "show_view_all": true
       }
     },
     "video": {
@@ -172,9 +184,10 @@
   },
   "order": [
     "image_banner",
+    "collage",
     "rich_text",
     "featured_products",
-    "collage",
+    "16303188514438b695",
     "video",
     "multi_column"
   ]
