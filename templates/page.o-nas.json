@@ -61,6 +61,39 @@
         "swipe_on_mobile": false
       }
     },
+    "16303199883d37042b": {
+      "type": "multicolumn",
+      "blocks": {
+        "16303199883d37042b-0": {
+          "type": "column",
+          "settings": {
+            "title": "Je na zboží záruka?",
+            "text": "<p>Na veškeré zboží poskytujeme záruku 1 rok s možností prodloužení. Ceny prodloužené záruky se odvíjí od konkrétního produktu.<\/p>"
+          }
+        },
+        "16303199883d37042b-1": {
+          "type": "column",
+          "settings": {
+            "title": "Je možné zboží vrátit?",
+            "text": "<p>Samozřejmě. Vrácení zboží probíhá dle platného zákona.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16303199883d37042b-0",
+        "16303199883d37042b-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "1630238560255bdb5d": {
       "type": "image-with-text",
       "blocks": {
@@ -113,39 +146,6 @@
         "layout": "text_first"
       }
     },
-    "16303199883d37042b": {
-      "type": "multicolumn",
-      "blocks": {
-        "16303199883d37042b-0": {
-          "type": "column",
-          "settings": {
-            "title": "Je na zboží záruka?",
-            "text": "<p>Na veškeré zboží poskytujeme záruku 1 rok s možností prodloužení. Ceny prodloužené záruky se odvíjí od konkrétního produktu.<\/p>"
-          }
-        },
-        "16303199883d37042b-1": {
-          "type": "column",
-          "settings": {
-            "title": "Je možné zboží vrátit?",
-            "text": "<p>Samozřejmě. Vrácení zboží probíhá dle platného zákona.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16303199883d37042b-0",
-        "16303199883d37042b-1"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
     "163032012173a3dfb9": {
       "type": "video",
       "settings": {
@@ -161,9 +161,9 @@
     "main",
     "1630238552969cb23a",
     "1630238471da2820ed",
+    "16303199883d37042b",
     "1630238560255bdb5d",
     "163023860866914110",
-    "16303199883d37042b",
     "163032012173a3dfb9"
   ]
 }
