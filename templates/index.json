@@ -171,12 +171,12 @@
         "column3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Proč zrovna nástroje",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
       }
