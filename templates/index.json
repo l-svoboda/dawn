@@ -2,30 +2,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "medium"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
       "settings": {
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
@@ -101,6 +77,37 @@
         "mobile_layout": "collage"
       }
     },
+    "16303206574f9f705b": {
+      "type": "newsletter",
+      "blocks": {
+        "16303206574f9f705b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nenechte si nic ujít"
+          }
+        },
+        "16303206574f9f705b-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Zanechte nám na sebe e-mail a buďte mezi prvními kdo se o všem dozví<\/p>"
+          }
+        },
+        "16303206574f9f705b-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16303206574f9f705b-0",
+        "16303206574f9f705b-1",
+        "16303206574f9f705b-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -127,6 +134,32 @@
         "full_width": false
       }
     },
+    "1630320676d0306b61": {
+      "type": "image-with-text",
+      "blocks": {
+        "1630320676d0306b61-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Původ našich produktů"
+          }
+        },
+        "1630320676d0306b61-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>boží v nabídce je přímo od distributora, není zde mezičlánek, který by cenu navýšil, proto jsou částky tak nízké.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630320676d0306b61-0",
+        "1630320676d0306b61-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
     "16303188514438b695": {
       "type": "featured-blog",
       "settings": {
@@ -146,21 +179,21 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Transparentnost",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Záruka",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "Zkušenosti",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
@@ -171,7 +204,7 @@
         "column3"
       ],
       "settings": {
-        "title": "Proč zrovna nástroje",
+        "title": "Proč zrovna nás",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "center",
@@ -186,8 +219,10 @@
     "image_banner",
     "rich_text",
     "collage",
+    "16303206574f9f705b",
     "featured_products",
     "video",
+    "1630320676d0306b61",
     "16303188514438b695",
     "multi_column"
   ]
