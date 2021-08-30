@@ -1,12 +1,12 @@
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#ff8d00",
-    "colors_accent_2": "#87ceeb",
+    "colors_accent_1": "#ffa735",
+    "colors_accent_2": "#92b3d4",
     "colors_text": "#121212",
-    "colors_outline_button_labels": "#121212",
+    "colors_outline_button_labels": "#00a571",
     "colors_background_1": "#FFFFFF",
-    "colors_background_2": "#F3F3F3",
+    "colors_background_2": "#f5df10",
     "type_header_font": "futura_n5",
     "type_body_font": "futura_n4",
     "social_facebook_link": "https:\/\/www.facebook.com\/iParada.cz",
