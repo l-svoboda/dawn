@@ -128,7 +128,6 @@
       "type": "video",
       "settings": {
         "heading": "Unboxing",
-        "cover_image": "shopify:\/\/shop_images\/iParada_logo_82027d76-fdd3-413e-abd7-e3b0239e4560.png",
         "video_url": "",
         "description": "",
         "full_width": false
@@ -158,6 +157,12 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
+      }
+    },
+    "1630413834cb758632": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class='snpt-wdgt--liveig'>\n    <script src='https:\/\/snapppt.com\/widgets\/liveig\/d6125778-58c3-7c98-cf7d-d9b7704154f9' class='snapppt-widget'><\/script>\n   <\/div> <div class='snpt-wdgt--liveig'>\n    <script src='https:\/\/snapppt.com\/widgets\/liveig\/d6125778-58c3-7c98-cf7d-d9b7704154f9' class='snapppt-widget'><\/script>\n   <\/div>"
       }
     },
     "multi_column": {
@@ -210,6 +215,7 @@
     "featured_products",
     "video",
     "1630320676d0306b61",
+    "1630413834cb758632",
     "multi_column"
   ]
 }
