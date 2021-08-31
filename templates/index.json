@@ -145,7 +145,7 @@
         "1630320676d0306b61-1": {
           "type": "text",
           "settings": {
-            "text": "<p>boží v nabídce je přímo od distributora, není zde mezičlánek, který by cenu navýšil, proto jsou částky tak nízké.<\/p>"
+            "text": "<p>Zboží v nabídce je přímo od distributora, není zde mezičlánek, který by cenu navýšil, proto jsou částky tak nízké.<\/p>"
           }
         }
       },
@@ -154,6 +154,7 @@
         "1630320676d0306b61-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/proces_na_sirku.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
