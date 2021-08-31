@@ -53,7 +53,7 @@
           "type": "collection",
           "settings": {
             "collection": "ipad",
-            "image_padding": false,
+            "image_padding": true,
             "color_scheme": "accent-2"
           }
         },
