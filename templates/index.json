@@ -3,6 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_1.png",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
