@@ -14,8 +14,8 @@
     "social_instagram_link": "https:\/\/www.instagram.com\/iparada.cz",
     "social_tiktok_link": "https:\/\/www.tiktok.com\/@iparada.cz",
     "favicon": "shopify:\/\/shop_images\/Favicon.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/iParada_logo_82027d76-fdd3-413e-abd7-e3b0239e4560.png",
-    "checkout_logo_size": "small",
+    "checkout_logo_image": "shopify:\/\/shop_images\/iParada_logo_orange.png",
+    "checkout_logo_size": "medium",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
