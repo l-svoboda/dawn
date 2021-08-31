@@ -152,13 +152,13 @@
         "full_width": false
       }
     },
-    "video": {
-      "type": "video",
+    "16304460576e4fb112": {
+      "type": "instafeed",
       "settings": {
-        "heading": "",
-        "video_url": "https:\/\/youtu.be\/DQVsGJt9aPg",
-        "description": "",
-        "full_width": true
+        "heading_font": "futura_n4",
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
       }
     },
     "multi_column": {
@@ -204,15 +204,6 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "16304460576e4fb112": {
-      "type": "instafeed",
-      "settings": {
-        "heading_font": "futura_n4",
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": ""
-      }
     }
   },
   "order": [
@@ -222,8 +213,7 @@
     "1630320676d0306b61",
     "featured_products",
     "16303206574f9f705b",
-    "video",
-    "multi_column",
-    "16304460576e4fb112"
+    "16304460576e4fb112",
+    "multi_column"
   ]
 }
