@@ -204,6 +204,15 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "16304460576e4fb112": {
+      "type": "instafeed",
+      "settings": {
+        "heading_font": "futura_n4",
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
     }
   },
   "order": [
@@ -214,6 +223,7 @@
     "featured_products",
     "16303206574f9f705b",
     "video",
-    "multi_column"
+    "multi_column",
+    "16304460576e4fb112"
   ]
 }
