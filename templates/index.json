@@ -60,8 +60,8 @@
         "b8ef2b4c-8aa0-4256-9122-fb0f696cd5b1": {
           "type": "collection",
           "settings": {
-            "collection": "watch",
-            "image_padding": false,
+            "collection": "apple-watch",
+            "image_padding": true,
             "color_scheme": "accent-1"
           }
         }
