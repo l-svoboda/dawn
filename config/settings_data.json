@@ -24,6 +24,7 @@
       "header": {
         "type": "header",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/iParada_logo_orange.png",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -51,7 +52,6 @@
           "56f44f14-be69-4a55-8cb6-6a01e7535811": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/iParada_logo_bile.png",
               "image_width": 130,
               "alignment": "right"
             }
