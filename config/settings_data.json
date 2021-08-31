@@ -16,6 +16,11 @@
     "favicon": "shopify:\/\/shop_images\/Favicon.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/iParada_logo_orange.png",
     "checkout_logo_size": "medium",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_sidebar_background_color": "#ffa735",
+    "checkout_accent_color": "#ffa735",
+    "checkout_button_color": "#ffa735",
+    "checkout_error_color": "#ffa735",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
