@@ -18,6 +18,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "7d9c8f89-5d0e-4a2f-97b8-439415256c3e": {
+            "type": "announcement",
+            "settings": {
+              "text": "Máme pro vás v záloze ty nejlepší ceny telefonů pro školní rok 2021\/2022",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "7d9c8f89-5d0e-4a2f-97b8-439415256c3e"
+        ],
         "settings": {
         }
       },
