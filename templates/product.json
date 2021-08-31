@@ -58,10 +58,10 @@
         "c0426752-d5f1-4373-a29d-7464063695e1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Parametry",
-            "content": "",
+            "heading": "Technické specifikace",
+            "content": "<p>{{ product.metafields.my_fields.technick_specifikace | metafield_tag }}<\/p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "none"
           }
         }
       },
