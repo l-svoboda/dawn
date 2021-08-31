@@ -155,10 +155,10 @@
     "video": {
       "type": "video",
       "settings": {
-        "heading": "Unboxing",
-        "video_url": "",
+        "heading": "",
+        "video_url": "https:\/\/youtu.be\/DQVsGJt9aPg",
         "description": "",
-        "full_width": false
+        "full_width": true
       }
     },
     "multi_column": {
