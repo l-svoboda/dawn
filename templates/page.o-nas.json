@@ -8,6 +8,7 @@
     "1630238552969cb23a": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_2.png",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "show_text_box": true,
@@ -71,6 +72,7 @@
         "1630238560255bdb5d-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/tech-meeting-flatlay.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -97,6 +99,7 @@
         "163023860866914110-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Puvod_nasich_produktu.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
