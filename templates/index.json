@@ -187,19 +187,28 @@
             "title": "",
             "text": ""
           }
+        },
+        "09a20b00-3f2f-4be5-bd6c-bee555ecc1cb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rychle_a_bezpecne_doruceni.png",
+            "title": "",
+            "text": ""
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
-        "b2010db6-9d5a-4c1b-84a9-c5979d59a8ca"
+        "b2010db6-9d5a-4c1b-84a9-c5979d59a8ca",
+        "09a20b00-3f2f-4be5-bd6c-bee555ecc1cb"
       ],
       "settings": {
         "title": "Proč zrovna nás",
         "image_width": "half",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
