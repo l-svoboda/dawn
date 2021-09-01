@@ -17,50 +17,6 @@
         "show_text_below": true
       }
     },
-    "1630238471da2820ed": {
-      "type": "multicolumn",
-      "blocks": {
-        "1630238471da2820ed-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Favicon.png",
-            "title": "Osoba 1",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1630238471da2820ed-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Favicon.png",
-            "title": "Osoba 2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1630238471da2820ed-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Favicon.png",
-            "title": "Osoba 3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1630238471da2820ed-0",
-        "1630238471da2820ed-1",
-        "1630238471da2820ed-2"
-      ],
-      "settings": {
-        "title": "Náš tým",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": true
-      }
-    },
     "16303199883d37042b": {
       "type": "multicolumn",
       "blocks": {
@@ -150,8 +106,8 @@
       "type": "video",
       "settings": {
         "heading": "Unboxing",
-        "cover_image": "shopify:\/\/shop_images\/iParada_logo_82027d76-fdd3-413e-abd7-e3b0239e4560.png",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify:\/\/shop_images\/Banner_1.png",
+        "video_url": "https:\/\/youtu.be\/9APr5rAuBic",
         "description": "",
         "full_width": false
       }
@@ -160,7 +116,6 @@
   "order": [
     "main",
     "1630238552969cb23a",
-    "1630238471da2820ed",
     "16303199883d37042b",
     "1630238560255bdb5d",
     "163023860866914110",
