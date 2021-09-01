@@ -113,7 +113,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Mohlo by se Vám také líbit",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
