@@ -130,15 +130,21 @@
     },
     "1630588088395c5d62": {
       "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16306222663b4fa67d": {
+      "type": "apps",
       "blocks": {
-        "d8487870-93de-435a-8c1d-098a0fb35ead": {
+        "4a402d79-94f7-400c-9948-3b4dbac6a3c7": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
         }
       },
       "block_order": [
-        "d8487870-93de-435a-8c1d-098a0fb35ead"
+        "4a402d79-94f7-400c-9948-3b4dbac6a3c7"
       ],
       "settings": {
         "include_margins": true
@@ -149,6 +155,7 @@
     "main",
     "16302312430268f962",
     "product-recommendations",
-    "1630588088395c5d62"
+    "1630588088395c5d62",
+    "16306222663b4fa67d"
   ]
 }
