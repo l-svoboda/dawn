@@ -3,10 +3,10 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner_1.png",
-        "adapt_height_first_image": false,
+        "image": "shopify:\/\/shop_images\/back_to_school_1.png",
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
-        "show_text_box": true,
+        "show_text_box": false,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
