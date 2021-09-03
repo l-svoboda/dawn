@@ -153,5 +153,5 @@
     </script>
    {% include 'smile-initializer' %}
 
-</body>
+{% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% endif %}</body>
 </html>
