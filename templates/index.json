@@ -108,8 +108,8 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Ve slevě",
-        "collection": "all",
+        "title": "Back to school",
+        "collection": "back-to-school",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
