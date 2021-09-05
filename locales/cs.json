@@ -419,6 +419,12 @@
       },
       "delivery_options": {
         "ship": "Doručit na adresu"
+      },
+      "order_summary": {
+        "shipping_label": "Doprava"
+      },
+      "shipping": {
+        "title": "Doprava"
       }
     }
   }
