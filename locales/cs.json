@@ -410,7 +410,11 @@
     },
     "checkout": {
       "contact": {
-        "email_or_phone_label": "E-mail nebo telefonní číslo"
+        "email_or_phone_label": "E-mail nebo telefonní číslo",
+        "email_or_phone_placeholder": "E-mail nebo telefonní číslo"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "přidat akčních nabídkách"
       }
     }
   }
