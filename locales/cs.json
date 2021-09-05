@@ -422,7 +422,8 @@
         "pick_up": "osobní odběr"
       },
       "order_summary": {
-        "shipping_label": "Doprava"
+        "shipping_label": "Doprava",
+        "pickup_label": "osobní odběr"
       },
       "shipping": {
         "title": "Doprava"
