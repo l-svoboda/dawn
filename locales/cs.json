@@ -134,7 +134,7 @@
         "view_store_info": "Zobrazit informace o obchodě",
         "check_other_stores": "Zkontrolovat dostupnost v ostatních obchodech",
         "pick_up_available": "Vyzvednutí k dispozici",
-        "pick_up_available_at_html": "Vyzvednutí je k dispozici v lokalitě <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_available_at_html": "Vyzvednutí je možné v lokalitě <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "pick_up_unavailable_at_html": "Vyzvednutí není momentálně v lokalitě <span class=\"color-foreground\">{{ location_name }}<\/span> k dispozici",
         "unavailable": "Dostupnost vyzvednutí nebylo možné načíst",
         "refresh": "Aktualizovat"
