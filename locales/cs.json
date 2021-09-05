@@ -427,7 +427,8 @@
         "title": "Doprava"
       },
       "general": {
-        "back_to_shipping_method": "Vrátit se k dopravě"
+        "back_to_shipping_method": "Vrátit se k dopravě",
+        "continue_to_shipping_method": "Pokračovat k dopravě"
       }
     }
   }
