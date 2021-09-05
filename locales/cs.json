@@ -407,6 +407,11 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "checkout": {
+      "contact": {
+        "email_or_phone_label": "E-mail nebo telefonní číslo"
+      }
     }
   }
 }
