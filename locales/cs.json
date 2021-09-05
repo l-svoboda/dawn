@@ -429,6 +429,11 @@
       "general": {
         "back_to_shipping_method": "Vrátit se k dopravě",
         "continue_to_shipping_method": "Pokračovat k dopravě"
+      },
+      "thank_you": {
+        "fulfillment": {
+          "unfulfilled_table_title": "Položky se připravují k dopravě"
+        }
       }
     }
   }
