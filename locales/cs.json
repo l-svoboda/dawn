@@ -416,6 +416,9 @@
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Informujte mě o novinkách a akčních nabídkách"
+      },
+      "delivery_options": {
+        "ship": "Doručit na adresu"
       }
     }
   }
