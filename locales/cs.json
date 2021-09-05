@@ -425,6 +425,9 @@
       },
       "shipping": {
         "title": "Doprava"
+      },
+      "general": {
+        "back_to_shipping_method": "Vrátit se k dopravě"
       }
     }
   }
