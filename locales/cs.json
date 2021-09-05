@@ -436,9 +436,6 @@
         "fulfillment": {
           "unfulfilled_table_title": "Položky se připravují k dopravě"
         }
-      },
-      "stock": {
-        "status_column_header": "Kategorie"
       }
     }
   }
