@@ -171,7 +171,7 @@
         "name": "Jméno",
         "email": "E-mail",
         "phone": "Telefonní číslo",
-        "comment": "Komentář",
+        "comment": "Zpráva",
         "send": "Odeslat",
         "post_success": "Děkujeme, že jste nás kontaktovali. Ozveme se vám co možná nejdříve.",
         "error_heading": "Upravte prosím následující informace:"
