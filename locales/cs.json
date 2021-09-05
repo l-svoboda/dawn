@@ -411,7 +411,8 @@
     "checkout": {
       "contact": {
         "email_or_phone_label": "E-mail nebo telefonní číslo",
-        "email_or_phone_placeholder": "E-mail nebo telefonní číslo"
+        "email_or_phone_placeholder": "E-mail nebo telefonní číslo",
+        "delivery_option_title": "Způsob doručení"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Informujte mě o novinkách a akčních nabídkách"
