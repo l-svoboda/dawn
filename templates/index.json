@@ -16,15 +16,16 @@
     "163087607770251c15": {
       "type": "rich-text",
       "blocks": {
-        "16308760771b48977c-1": {
-          "type": "text",
+        "f49648c5-7bb0-4198-af60-65cc01cecb74": {
+          "type": "heading",
           "settings": {
-            "text": "<p>Zánovní a použité telefony, tablety a další příslušenství značky Apple za bezkonkurenční ceny<\/p>"
+            "heading": "Zánovní a použité telefony, tablety a další příslušenství značky Apple za bezkonkurenční ceny",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "16308760771b48977c-1"
+        "f49648c5-7bb0-4198-af60-65cc01cecb74"
       ],
       "settings": {
         "color_scheme": "background-1",
