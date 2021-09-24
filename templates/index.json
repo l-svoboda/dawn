@@ -116,8 +116,8 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Back to school",
-        "collection": "back-to-school",
+        "title": "iPhone 13",
+        "collection": "iphone-13",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
