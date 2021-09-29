@@ -55,32 +55,6 @@
         "swipe_on_mobile": false
       }
     },
-    "1632922068fb6bb216": {
-      "type": "rich-text",
-      "blocks": {
-        "1632922068fb6bb216-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Často se nás ptáte...",
-            "heading_size": "h0"
-          }
-        },
-        "f5d7347b-9b77-4ada-bd68-d0bbcd9faeea": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1632922068fb6bb216-0",
-        "f5d7347b-9b77-4ada-bd68-d0bbcd9faeea"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "16329212547ff3afc5": {
       "type": "rich-text",
       "blocks": {
@@ -133,20 +107,39 @@
         "full_width": true
       }
     },
+    "1632922068fb6bb216": {
+      "type": "rich-text",
+      "blocks": {
+        "1632922068fb6bb216-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Často se nás ptáte...",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "1632922068fb6bb216-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "163292174097e59801": {
       "type": "rich-text",
       "blocks": {
         "163292174097e59801-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "Proč je zboží tak levné?",
+            "heading_size": "h2"
           }
         },
         "163292174097e59801-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Zboží v nabídce je přímo od distributora, není zde mezičlánek, který by cenu navýšil, proto jsou částky tak nízké.<\/p>"
           }
         }
       },
@@ -157,6 +150,34 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
+      }
+    },
+    "1632921980f7fdf85e": {
+      "type": "rich-text",
+      "blocks": {
+        "1632921980f7fdf85e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Co znamenají kategorie stavů?",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1632921980f7fdf85e-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1632922684dc0fb9f4": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Stav_produktu_3d7a3994-0b88-4d93-86a9-b50a754733bd.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     },
     "1632921676f8287051": {
@@ -179,41 +200,6 @@
       "block_order": [
         "1632921676f8287051-0",
         "1632921676f8287051-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "1632921980f7fdf85e": {
-      "type": "rich-text",
-      "blocks": {
-        "1632921980f7fdf85e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "1632921980f7fdf85e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "1632921980f7fdf85e-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "1632921980f7fdf85e-0",
-        "1632921980f7fdf85e-1",
-        "1632921980f7fdf85e-2"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -246,8 +232,53 @@
         "full_width": true
       }
     },
+    "16329227482e98ba7b": {
+      "type": "rich-text",
+      "blocks": {
+        "16329227482e98ba7b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jak vás mohu kontaktovat?",
+            "heading_size": "h2"
+          }
+        },
+        "16329227482e98ba7b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Veškeré dotazy rádi zodpovíme v sekci <a href=\"\/pages\/contact\" target=\"_blank\" title=\"Kontakt\">Kontakt<\/a>.<\/p>"
+          }
+        },
+        "16329227482e98ba7b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16329227482e98ba7b-0",
+        "16329227482e98ba7b-1",
+        "16329227482e98ba7b-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "163032012173a3dfb9": {
+      "type": "video",
+      "settings": {
+        "heading": "Unboxing",
+        "video_url": "https:\/\/youtu.be\/9APr5rAuBic",
+        "description": "",
+        "full_width": false
+      }
+    },
     "163023860866914110": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "163023860866914110-0": {
           "type": "heading",
@@ -272,28 +303,21 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
-    },
-    "163032012173a3dfb9": {
-      "type": "video",
-      "settings": {
-        "heading": "Unboxing",
-        "video_url": "https:\/\/youtu.be\/9APr5rAuBic",
-        "description": "",
-        "full_width": false
-      }
     }
   },
   "order": [
     "main",
     "16303199883d37042b",
-    "1632922068fb6bb216",
     "16329212547ff3afc5",
     "16329216557590c037",
+    "1632922068fb6bb216",
     "163292174097e59801",
-    "1632921676f8287051",
     "1632921980f7fdf85e",
+    "1632922684dc0fb9f4",
+    "1632921676f8287051",
     "1632921735420f882c",
-    "163023860866914110",
-    "163032012173a3dfb9"
+    "16329227482e98ba7b",
+    "163032012173a3dfb9",
+    "163023860866914110"
   ]
 }
