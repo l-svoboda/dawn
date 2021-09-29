@@ -161,23 +161,47 @@
             "heading": "Co znamenají kategorie stavů?",
             "heading_size": "h2"
           }
+        },
+        "f39cfccd-0649-423b-9ac1-55c948cd0238": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Produkty rozdělujeme do několika kategorií podle míry jejich opotřebení.<\/p>"
+          }
         }
       },
       "block_order": [
-        "1632921980f7fdf85e-0"
+        "1632921980f7fdf85e-0",
+        "f39cfccd-0649-423b-9ac1-55c948cd0238"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
       }
     },
-    "1632922684dc0fb9f4": {
-      "type": "image-with-text",
+    "16329233929ebbb231": {
+      "type": "multicolumn",
+      "blocks": {
+        "16329233929ebbb231-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stav_produktu_3d7a3994-0b88-4d93-86a9-b50a754733bd.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16329233929ebbb231-0"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Stav_produktu_3d7a3994-0b88-4d93-86a9-b50a754733bd.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     },
     "1632921676f8287051": {
@@ -232,10 +256,29 @@
         "full_width": true
       }
     },
+    "16329233998ee189ed": {
+      "type": "rich-text",
+      "blocks": {
+        "16329233998ee189ed-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jak k Vám zboží dorazí?",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "16329233998ee189ed-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "163032012173a3dfb9": {
       "type": "video",
       "settings": {
-        "heading": "Jak Vám zboží dorazí?",
+        "heading": "",
         "video_url": "https:\/\/youtu.be\/9APr5rAuBic",
         "description": "",
         "full_width": false
@@ -313,9 +356,10 @@
     "1632922068fb6bb216",
     "163292174097e59801",
     "1632921980f7fdf85e",
-    "1632922684dc0fb9f4",
+    "16329233929ebbb231",
     "1632921676f8287051",
     "1632921735420f882c",
+    "16329233998ee189ed",
     "163032012173a3dfb9",
     "16329227482e98ba7b",
     "163023860866914110"
