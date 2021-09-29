@@ -437,6 +437,9 @@
         "fulfillment": {
           "unfulfilled_table_title": "Položky se připravují k dopravě"
         }
+      },
+      "payment_gateway": {
+        "credit_card_label": "Platební karta"
       }
     }
   }
