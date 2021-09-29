@@ -5,19 +5,25 @@
       "settings": {
       }
     },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Chcete se na něco zeptat?"
+      }
+    },
     "16303203716fabc186": {
       "type": "image-with-text",
       "blocks": {
         "16303203716fabc186-0": {
           "type": "heading",
           "settings": {
-            "heading": "Kde nás najdete"
+            "heading": "Kde nás najdete?"
           }
         },
         "16303203716fabc186-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Naši výdejnu najdete v budově Nile House, kde vás rádi uvítáme po předchozí domluvě.<\/p>"
+            "text": "<p>Naši výdejnu najdete v budově Nile House, kde Vás rádi uvítáme po předchozí domluvě.<\/p>"
           }
         }
       },
@@ -32,23 +38,45 @@
         "layout": "image_first"
       }
     },
+    "1632923994d20a1662": {
+      "type": "image-with-text",
+      "blocks": {
+        "1632923994d20a1662-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "European supply chain a.s."
+          }
+        },
+        "1632923994d20a1662-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Karolínská 654\/2<\/p><p>Nile house<\/p><p>186 00, Praha 8<\/p><p>IČ: 28126998<\/p><p>DIČ: CZ28126998<\/p><p>e-mail: <a href=\"mailto:jsme@iparada.cz\">jsme@iparada.cz<\/a><\/p><p>tel: <a href=\"tel:+420776188578\">+420 776 188 578<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1632923994d20a1662-0",
+        "1632923994d20a1662-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/contact-us-sign-with-phone-on-desk.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
     "1630237665e619a380": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2559.5745489302694!2d14.442351815889415!3d50.094251979427895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94bb836df3eb%3A0x9cd6f44718f0c686!2sNile%20House!5e0!3m2!1scs!2scz!4v1630238007960!5m2!1scs!2scz\" width=100% height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>"
       }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Chcete se na něco zeptat?"
-      }
     }
   },
   "order": [
     "main",
+    "form",
     "16303203716fabc186",
-    "1630237665e619a380",
-    "form"
+    "1632923994d20a1662",
+    "1630237665e619a380"
   ]
 }
