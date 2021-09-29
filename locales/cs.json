@@ -200,7 +200,7 @@
       "subtotal": "Mezisoučet",
       "new_subtotal": "Nový mezisoučet",
       "note": "Zvláštní pokyny k objednávce",
-      "checkout": "Pokladna",
+      "checkout": "Přejít k pokladně",
       "empty": "Košík je prázdný",
       "cart_error": "Při aktualizaci vašeho košíku došlo k chybě. Zkuste to prosím znovu.",
       "cart_quantity_error_html": "Do košíku můžete přidat jen následující množství dané položky: [quantity].",
