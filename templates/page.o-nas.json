@@ -232,6 +232,15 @@
         "full_width": true
       }
     },
+    "163032012173a3dfb9": {
+      "type": "video",
+      "settings": {
+        "heading": "Jak Vám zboží dorazí?",
+        "video_url": "https:\/\/youtu.be\/9APr5rAuBic",
+        "description": "",
+        "full_width": false
+      }
+    },
     "16329227482e98ba7b": {
       "type": "rich-text",
       "blocks": {
@@ -265,15 +274,6 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
-      }
-    },
-    "163032012173a3dfb9": {
-      "type": "video",
-      "settings": {
-        "heading": "Unboxing",
-        "video_url": "https:\/\/youtu.be\/9APr5rAuBic",
-        "description": "",
-        "full_width": false
       }
     },
     "163023860866914110": {
@@ -316,8 +316,8 @@
     "1632922684dc0fb9f4",
     "1632921676f8287051",
     "1632921735420f882c",
-    "16329227482e98ba7b",
     "163032012173a3dfb9",
+    "16329227482e98ba7b",
     "163023860866914110"
   ]
 }
