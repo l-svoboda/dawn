@@ -443,6 +443,9 @@
       },
       "payment": {
         "different_credit_card_label": "Použijte jinou platební kartu"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Z vaší platební karty bude stržena částka {{ amount }}"
       }
     }
   }
