@@ -7,7 +7,22 @@
     },
     "16303199883d37042b": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
+        "95a773f1-2d28-469f-a2ef-fe74ec264d9a": {
+          "type": "column",
+          "settings": {
+            "title": "Kdo jsme?",
+            "text": "<p>Za iParádou stojí nadšenci do značky Apple, kteří ve velkoobchodní sféře působí přes 17 let. Jsme hlavním distributorem použitých telefonů v centrální Evropě a zásobujeme nejen Českou republiku, ale i Skandinávii, Řecko, Rumunsko nebo část Německa.<\/p>"
+          }
+        },
+        "6a89f638-1549-4f00-ab8c-9acd95902258": {
+          "type": "column",
+          "settings": {
+            "title": "Naše poslání",
+            "text": "<p>Posláním iParády je zpřístupnit produkty Apple všem. Bez rozdílu. <strong>V limitovaném počtu a po omezený čas <\/strong>nabízíme zánovní a použité telefony, tablety a další příslušenství značky Apple <strong>za bezkonkurenční ceny.<\/strong><\/p>"
+          }
+        },
         "16303199883d37042b-0": {
           "type": "column",
           "settings": {
@@ -24,6 +39,8 @@
         }
       },
       "block_order": [
+        "95a773f1-2d28-469f-a2ef-fe74ec264d9a",
+        "6a89f638-1549-4f00-ab8c-9acd95902258",
         "16303199883d37042b-0",
         "16303199883d37042b-1"
       ],
@@ -38,16 +55,43 @@
         "swipe_on_mobile": false
       }
     },
-    "1630238560255bdb5d": {
-      "type": "image-with-text",
+    "1632922068fb6bb216": {
+      "type": "rich-text",
       "blocks": {
-        "1630238560255bdb5d-0": {
+        "1632922068fb6bb216-0": {
           "type": "heading",
           "settings": {
-            "heading": "Kdo jsme?"
+            "heading": "Často se nás ptáte...",
+            "heading_size": "h0"
           }
         },
-        "1630238560255bdb5d-1": {
+        "f5d7347b-9b77-4ada-bd68-d0bbcd9faeea": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1632922068fb6bb216-0",
+        "f5d7347b-9b77-4ada-bd68-d0bbcd9faeea"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16329212547ff3afc5": {
+      "type": "rich-text",
+      "blocks": {
+        "16329212547ff3afc5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kdo jsme?",
+            "heading_size": "h2"
+          }
+        },
+        "16329212547ff3afc5-1": {
           "type": "text",
           "settings": {
             "text": "<p>Za iParádou stojí nadšenci do značky Apple, kteří ve velkoobchodní sféře působí přes 17 let. Jsme hlavním distributorem použitých telefonů v centrální Evropě a zásobujeme nejen Českou republiku, ale i Skandinávii, Řecko, Rumunsko nebo část Německa.<\/p>"
@@ -55,14 +99,151 @@
         }
       },
       "block_order": [
-        "1630238560255bdb5d-0",
-        "1630238560255bdb5d-1"
+        "16329212547ff3afc5-0",
+        "16329212547ff3afc5-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/tech-meeting-flatlay.jpg",
-        "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "full_width": true
+      }
+    },
+    "16329216557590c037": {
+      "type": "rich-text",
+      "blocks": {
+        "16329216557590c037-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Naše poslání",
+            "heading_size": "h2"
+          }
+        },
+        "16329216557590c037-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Posláním iParády je zpřístupnit produkty Apple všem. Bez rozdílu. <strong>V limitovaném počtu a po omezený čas <\/strong>nabízíme zánovní a použité telefony, tablety a další příslušenství značky Apple <strong>za bezkonkurenční ceny.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16329216557590c037-0",
+        "16329216557590c037-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "163292174097e59801": {
+      "type": "rich-text",
+      "blocks": {
+        "163292174097e59801-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "163292174097e59801-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163292174097e59801-0",
+        "163292174097e59801-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1632921676f8287051": {
+      "type": "rich-text",
+      "blocks": {
+        "1632921676f8287051-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Je na zboží záruka?",
+            "heading_size": "h2"
+          }
+        },
+        "1632921676f8287051-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Na veškeré zboží poskytujeme záruku 1 rok s možností prodloužení. Ceny prodloužené záruky se odvíjí od konkrétního produktu.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1632921676f8287051-0",
+        "1632921676f8287051-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1632921980f7fdf85e": {
+      "type": "rich-text",
+      "blocks": {
+        "1632921980f7fdf85e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1632921980f7fdf85e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1632921980f7fdf85e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1632921980f7fdf85e-0",
+        "1632921980f7fdf85e-1",
+        "1632921980f7fdf85e-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1632921735420f882c": {
+      "type": "rich-text",
+      "blocks": {
+        "1632921735420f882c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Je možné zboží vrátit?",
+            "heading_size": "h2"
+          }
+        },
+        "1632921735420f882c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Samozřejmě. Vrácení zboží probíhá dle platného zákona.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1632921735420f882c-0",
+        "1632921735420f882c-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
       }
     },
     "163023860866914110": {
@@ -96,7 +277,6 @@
       "type": "video",
       "settings": {
         "heading": "Unboxing",
-        "cover_image": "shopify:\/\/shop_images\/Banner_1.png",
         "video_url": "https:\/\/youtu.be\/9APr5rAuBic",
         "description": "",
         "full_width": false
@@ -106,7 +286,13 @@
   "order": [
     "main",
     "16303199883d37042b",
-    "1630238560255bdb5d",
+    "1632922068fb6bb216",
+    "16329212547ff3afc5",
+    "16329216557590c037",
+    "163292174097e59801",
+    "1632921676f8287051",
+    "1632921980f7fdf85e",
+    "1632921735420f882c",
     "163023860866914110",
     "163032012173a3dfb9"
   ]
