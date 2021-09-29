@@ -131,7 +131,7 @@
         "unit_price": "Jednotková cena"
       },
       "pickup_availability": {
-        "view_store_info": "O osobním odběru",
+        "view_store_info": "Zobrazit informace o osobním odběru",
         "check_other_stores": "Zkontrolovat dostupnost v ostatních obchodech",
         "pick_up_available": "Vyzvednutí k dispozici",
         "pick_up_available_at_html": "Vyzvednutí je možné v lokalitě <span class=\"color-foreground\">{{ location_name }}<\/span>",
