@@ -137,22 +137,30 @@
             "heading": "Proč je zboží tak levné?"
           }
         },
-        "1630320676d0306b61-1": {
+        "1f074e91-e42a-4e5e-81a3-f4998c7aab40": {
           "type": "text",
           "settings": {
-            "text": "<p>Zboží v nabídce je přímo od distributora, není zde mezičlánek, který by cenu navýšil, proto jsou částky tak nízké.<\/p>"
+            "text": "<p>Tajemství toho, jak iParáda funguje, naleznete v sekci O nás.<\/p>"
+          }
+        },
+        "2c6961ad-9cd0-4d13-9499-d7ccc80c37a8": {
+          "type": "button",
+          "settings": {
+            "button_label": "O nás",
+            "button_link": "shopify:\/\/pages\/o-nas"
           }
         }
       },
       "block_order": [
         "1630320676d0306b61-0",
-        "1630320676d0306b61-1"
+        "1f074e91-e42a-4e5e-81a3-f4998c7aab40",
+        "2c6961ad-9cd0-4d13-9499-d7ccc80c37a8"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Puvod_nasich_produktu.png",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "image_first"
+        "layout": "text_first"
       }
     },
     "16317942515fedd7ed": {
