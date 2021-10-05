@@ -14,6 +14,7 @@
     "social_instagram_link": "https:\/\/www.instagram.com\/iparada.cz",
     "social_tiktok_link": "https:\/\/www.tiktok.com\/@iparada.cz",
     "favicon": "shopify:\/\/shop_images\/Favicon.png",
+    "currency_code_enabled": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/iParada_logo_orange.png",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
@@ -24,19 +25,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "7d9c8f89-5d0e-4a2f-97b8-439415256c3e": {
-            "type": "announcement",
-            "settings": {
-              "text": "",
-              "color_scheme": "accent-1",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "7d9c8f89-5d0e-4a2f-97b8-439415256c3e"
-        ],
         "settings": {
         }
       },
