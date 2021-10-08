@@ -164,73 +164,6 @@
         "layout": "text_first"
       }
     },
-    "16317942515fedd7ed": {
-      "type": "featured-product",
-      "blocks": {
-        "16317942515fedd7ed-0": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "uppercase"
-          }
-        },
-        "16317942515fedd7ed-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "16317942515fedd7ed-2": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "subtitle"
-          }
-        },
-        "16317942515fedd7ed-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "16317942515fedd7ed-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "16317942515fedd7ed-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "16317942515fedd7ed-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "16317942515fedd7ed-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Sdílet"
-          }
-        }
-      },
-      "block_order": [
-        "16317942515fedd7ed-0",
-        "16317942515fedd7ed-1",
-        "16317942515fedd7ed-2",
-        "16317942515fedd7ed-3",
-        "16317942515fedd7ed-4",
-        "16317942515fedd7ed-5",
-        "16317942515fedd7ed-6",
-        "16317942515fedd7ed-7"
-      ],
-      "settings": {
-        "product": "apple-tv-4-generace",
-        "secondary_background": false,
-        "enable_video_looping": false
-      }
-    },
     "16303206574f9f705b": {
       "type": "newsletter",
       "blocks": {
@@ -332,7 +265,6 @@
     "rich_text",
     "featured_products",
     "1630320676d0306b61",
-    "16317942515fedd7ed",
     "16303206574f9f705b",
     "16304460576e4fb112",
     "multi_column"
