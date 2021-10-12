@@ -180,6 +180,7 @@
     },
     "16329233929ebbb231": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "16329233929ebbb231-0": {
           "type": "column",
@@ -257,6 +258,7 @@
     },
     "16329233998ee189ed": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16329233998ee189ed-0": {
           "type": "heading",
@@ -276,6 +278,7 @@
     },
     "163032012173a3dfb9": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "video_url": "https:\/\/youtu.be\/9APr5rAuBic",
