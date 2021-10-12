@@ -97,18 +97,11 @@
             "text": "<p>Dobrý den, tak dnes mi telefon přišel a chtěl bych Vám moc poděkovat. Cena je opravdu nízká a telefon vypadá úplně jako nový. Takže ještě jednou moc děkuji a určitě si od Vás ještě něco pořídím.<\/p>"
           }
         },
-        "16340318499b33428a-1": {
+        "9ddf53bb-71c4-4079-958b-d28dac81349f": {
           "type": "column",
           "settings": {
-            "title": "Fanda, pořídil iPhone XS Max",
-            "text": "<p>Dobrý den, úplně super, byl jsem pryč, takže až včera večer jsem si ho zapnul a úplně super!<\/p>"
-          }
-        },
-        "16340318499b33428a-2": {
-          "type": "column",
-          "settings": {
-            "title": "Eliška, pořídila iPhone 12 ve fialové barvě",
-            "text": "<p>Musím říct, že iPhone v tak pěkném stavu jsem nečekala. Naprostá spokojenost, díky<\/p>"
+            "title": "Vanesa, pořídila iPhone 8 ve zlaté barvě",
+            "text": "<p>Týjo, děkuju straaaaašně mooooc! Telefon je úplně v pořádku, jsem strašně šťastná, děkujiiii!<\/p>"
           }
         },
         "6e0ab3cb-7fb6-479b-8602-10aa1d4308ac": {
@@ -117,21 +110,12 @@
             "title": "Bára, pořídila iPhone 8 v černé barvě",
             "text": "<p>Dobrý den. Kupovala jsem iPhone 8 a je to paráda. Za málo peněz, hodně muziky. Opravdu takový mobil a za takovou cenu, to je zadarmo. Mockrát děkuji. Ještě se chci zeptat, jestli budou i jiné Apple produkty? Kdyby byly airpods, určitě bych kupovala.<\/p>"
           }
-        },
-        "9ddf53bb-71c4-4079-958b-d28dac81349f": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
         }
       },
       "block_order": [
         "16340318499b33428a-0",
-        "16340318499b33428a-1",
-        "16340318499b33428a-2",
-        "6e0ab3cb-7fb6-479b-8602-10aa1d4308ac",
-        "9ddf53bb-71c4-4079-958b-d28dac81349f"
+        "9ddf53bb-71c4-4079-958b-d28dac81349f",
+        "6e0ab3cb-7fb6-479b-8602-10aa1d4308ac"
       ],
       "settings": {
         "title": "Recenze",
