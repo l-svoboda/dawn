@@ -135,21 +135,21 @@
         "16340318499b33428a-0": {
           "type": "column",
           "settings": {
-            "title": "Honza, pořídil iPhone 12 Mini v modré",
+            "title": "Honza, koupil iPhone 12 Mini v modré barvě",
             "text": "<p>Dobrý den, tak dnes mi telefon přišel a chtěl bych Vám moc poděkovat. Cena je opravdu nízká a telefon vypadá úplně jako nový. Takže ještě jednou moc děkuji a určitě si od Vás ještě něco pořídím.<\/p>"
           }
         },
         "9ddf53bb-71c4-4079-958b-d28dac81349f": {
           "type": "column",
           "settings": {
-            "title": "Vanesa, pořídila iPhone 8 ve zlaté barvě",
+            "title": "Vanesa, koupila iPhone 8 ve zlaté barvě",
             "text": "<p>Týjo, děkuju straaaaašně mooooc! Telefon je úplně v pořádku, jsem strašně šťastná, děkujiiii!<\/p>"
           }
         },
         "6e0ab3cb-7fb6-479b-8602-10aa1d4308ac": {
           "type": "column",
           "settings": {
-            "title": "Bára, pořídila iPhone 8 v černé barvě",
+            "title": "Bára, koupila iPhone 8 v černé barvě",
             "text": "<p>Dobrý den. Kupovala jsem iPhone 8 a je to paráda. Za málo peněz, hodně muziky. Opravdu takový mobil a za takovou cenu, to je zadarmo. Mockrát děkuji. Ještě se chci zeptat, jestli budou i jiné Apple produkty? Kdyby byly airpods, určitě bych kupovala.<\/p>"
           }
         }
@@ -167,7 +167,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "1630320676d0306b61": {
