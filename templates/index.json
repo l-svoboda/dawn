@@ -117,7 +117,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Akční nabídka",
-        "collection": "iphone-13",
+        "collection": "iphone",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
