@@ -205,6 +205,57 @@
         "layout": "text_first"
       }
     },
+    "1634545652d3b184b7": {
+      "type": "featured-product",
+      "blocks": {
+        "1634545652d3b184b7-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1634545652d3b184b7-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1634545652d3b184b7-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1634545652d3b184b7-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1634545652d3b184b7-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1634545652d3b184b7-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1634545652d3b184b7-1",
+        "1634545652d3b184b7-3",
+        "1634545652d3b184b7-4",
+        "1634545652d3b184b7-5",
+        "1634545652d3b184b7-6",
+        "1634545652d3b184b7-7"
+      ],
+      "settings": {
+        "product": "ipad-air-3-generace",
+        "secondary_background": false,
+        "enable_video_looping": false
+      }
+    },
     "16303206574f9f705b": {
       "type": "newsletter",
       "blocks": {
@@ -307,6 +358,7 @@
     "featured_products",
     "16340318499b33428a",
     "1630320676d0306b61",
+    "1634545652d3b184b7",
     "16303206574f9f705b",
     "16304460576e4fb112",
     "multi_column"
