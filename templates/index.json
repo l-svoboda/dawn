@@ -66,20 +66,11 @@
             "image_padding": true,
             "color_scheme": "accent-2"
           }
-        },
-        "b8ef2b4c-8aa0-4256-9122-fb0f696cd5b1": {
-          "type": "collection",
-          "settings": {
-            "collection": "apple-watch",
-            "image_padding": true,
-            "color_scheme": "accent-1"
-          }
         }
       },
       "block_order": [
         "8acb6962-c4c7-4312-a735-55855a558c5e",
-        "65a3e99d-51cd-40e9-9983-335ed6f9c358",
-        "b8ef2b4c-8aa0-4256-9122-fb0f696cd5b1"
+        "65a3e99d-51cd-40e9-9983-335ed6f9c358"
       ],
       "settings": {
         "heading": "",
