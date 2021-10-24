@@ -1207,7 +1207,8 @@
     "share": {
       "close": "Zavrieť okno pre zdieľanie",
       "copy_to_clipboard": "kopírovať odkaz",
-      "share_url": "odkaz"
+      "share_url": "odkaz",
+      "success_message": "Odkaz bol skopírovaný do schránky"
     }
   },
   "customer": {
@@ -1248,6 +1249,127 @@
       "expired": "platnosť vypršala",
       "copy_code_success": "Kód bol úspešne skopírovaný",
       "print_gift_card": "Vytlačiť"
+    }
+  },
+  "date_formats": {
+    "month_year": "% B% Y"
+  },
+  "newsletter": {
+    "label": "E-mail",
+    "success": "Ďakujeme za prihlásenie k odberu",
+    "button_label": "Prihlásiť k odberu"
+  },
+  "accessibility": {
+    "skip_to_text": "Prejsť k obsahu",
+    "skip_to_product_info": "Prejsť na informácie o produkte",
+    "close": "Zavrieť",
+    "unit_price_separator": "za",
+    "vendor": "dodávateľ:",
+    "error": "chyba",
+    "refresh_page": "Po voľbe výbere sa obnoví celá strana.",
+    "link_messages": {
+      "new_window": "Otvorí sa v novom okne.",
+      "external": "Otvorí externý webovú stránku."
+    },
+    "of": "z",
+    "next_slide": "snímka vpravo",
+    "previous_slide": "snímka vľavo",
+    "loading": "Načítanie ...",
+    "total_reviews": "celkový počet recenzií",
+    "star_reviews_info": "<P5rating_value <\/ p5> z {{ rating_max <\/ p5> hviezdičiek"
+  },
+  "blogs": {
+    "article": {
+      "blog": "Blog",
+      "read_more_title": "Prečítajte si viac: {{ title <\/ p5>",
+      "comments": {
+        "one": "<P5count <\/ p5> komentár",
+        "other": "Počet komentárov: {{ count <\/ p5>"
+      },
+      "moderated": "Upozorňujeme, že komentáre musia byť pred zverejnením schválené.",
+      "comment_form_title": "Napíšte komentár",
+      "name": "Názov",
+      "email": "E-mail",
+      "message": "komentár",
+      "post": "zverejniť komentár",
+      "back_to_blog": "Späť na blog",
+      "share": "Nasdílet tento článok",
+      "success": "Váš komentár bol úspešne publikovaný! Ďakujeme!",
+      "success_moderated": "Váš komentár bol úspešne publikovaný. Zverejníme ho až za chvíľu, pretože náš blog je moderovaný."
+    }
+  },
+  "onboarding": {
+    "product_title": "Vzorový názov produktu",
+    "collection_title": "Názov vašej kolekcie"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Pridať do košíka",
+      "description": "popis",
+      "on_sale": "zľava",
+      "product_variants": "varianty produktu",
+      "media": {
+        "open_featured_media": "Otvoriť vybraný multimediálny obsah v zobrazení galérie",
+        "open_media": "Otvoriť multimediálny obsah {{ index <\/ p5> v zobrazení galérie",
+        "play_model": "Prehrať v 3D prehliadači",
+        "play_video": "prehrať video"
+      },
+      "quantity": {
+        "label": "množstvo",
+        "input_label": "Množstvo produktu {{ product <\/ p5>",
+        "increase": "Zvýšiť množstvo produktu {{ product <\/ p5>",
+        "decrease": "Znížiť množstvo produktu {{ product <\/ p5>"
+      },
+      "pickup_availability": {
+        "view_store_info": "Zobraziť informácie o osobnom odbere",
+        "check_other_stores": "Skontrolovať dostupnosť v ostatných obchodoch",
+        "pick_up_available": "Vyzdvihnutie k dispozícii",
+        "pick_up_available_at_html": "Vyzdvihnutie je možné v lokalite <span class=\"color-foreground\"> {{ location_name <\/ p5> <\/span>",
+        "pick_up_unavailable_at_html": "Vyzdvihnutie nie je momentálne v lokalite <span class=\"color-foreground\"> {{ location_name <\/ p5> <\/span> k dispozícii",
+        "unavailable": "Dostupnosť vyzdvihnutie nebolo možné načítať",
+        "refresh": "aktualizovať"
+      },
+      "price": {
+        "from_price_html": "Od {{ price <\/ p5>",
+        "regular_price": "Bežná cena",
+        "sale_price": "Výpredajová cena",
+        "unit_price": "jednotková cena"
+      },
+      "share": "Zdieľať tento produkt",
+      "sold_out": "Vypredané",
+      "unavailable": "Nie je k dispozícii",
+      "vendor": "dodávateľ",
+      "video_exit_message": "<P5title <\/ p5> otvorí v rovnakom okne video na celej obrazovke.",
+      "view_full_details": "Zobraziť všetky podrobnosti",
+      "xr_button": "Zobraziť vo vašom priestore",
+      "xr_button_label": "Zobraziť vo vašom priestore: Umožňuje načítať položku v okne rozšírenej reality"
+    },
+    "modal": {
+      "label": "galéria multimédií"
+    }
+  },
+  "templates": {
+    "search": {
+      "no_results": "Neboli nájdené žiadne výsledky pre {{ terms <\/ p5>. Skontrolujte pravopis alebo zadajte iné slovo či slovné spojenie.",
+      "page": "stránka",
+      "results_with_count": {
+        "one": "Pre dotaz {{  terms <\/ p5> bol nájdený {{  count <\/ p5> výsledok",
+        "other": "Pre dotaz {{  terms <\/ p5> bol nájdený tento počet výsledkov: {{  count <\/ p5>"
+      },
+      "title": "výsledky hľadania"
+    },
+    "cart": {
+      "cart": "košík"
+    },
+    "contact": {
+      "form": {
+        "name": "Meno",
+        "email": "E-mail",
+        "phone": "telefónne číslo",
+        "comment": "správa",
+        "send": "Odoslať",
+        "post_success": "Ďakujeme, že ste nás kontaktovali. Ozveme sa vám čo možno najskôr."
+      }
     }
   }
 }
