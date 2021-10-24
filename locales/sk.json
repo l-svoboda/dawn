@@ -1209,5 +1209,109 @@
       "copy_to_clipboard": "kopírovať odkaz",
       "share_url": "odkaz"
     }
+  },
+  "templates": {
+    "contact": {
+      "form": {
+        "error_heading": "Upravte prosím nasledujúce informácie:"
+      }
+    },
+    "404": {
+      "title": "Stránka nebola nájdená",
+      "subtext": "404"
+    }
+  },
+  "localization": {
+    "country_label": "Krajina \/ oblasť",
+    "language_label": "jazyk",
+    "update_language": "aktualizovať jazyk",
+    "update_country": "Aktualizovať krajinu \/ región"
+  },
+  "customer": {
+    "account": {
+      "title": "účet",
+      "details": "podrobnosti účtu",
+      "view_addresses": "Zobraziť adresy",
+      "return": "Vrátiť sa k podrobnostiam účtu"
+    },
+    "account_fallback": "účet",
+    "activate_account": {
+      "title": "aktivovať účet",
+      "subtext": "Vytvorte heslo pre aktiváciu účtu.",
+      "password": "heslo",
+      "password_confirm": "potvrdiť heslo",
+      "submit": "aktivovať účet",
+      "cancel": "odmietnuť pozvanie"
+    },
+    "addresses": {
+      "title": "adresy",
+      "default": "predvolené",
+      "add_new": "Pridať novú adresu",
+      "edit_address": "upraviť adresu",
+      "first_name": "Meno",
+      "last_name": "priezvisko",
+      "company": "spoločnosť",
+      "address1": "adresa 1",
+      "address2": "adresa 2",
+      "city": "mesto",
+      "country": "Krajina \/ oblasť",
+      "province": "provincia",
+      "zip": "PSČ",
+      "phone": "telefón",
+      "set_default": "Nastaviť ako predvolenú adresu",
+      "add": "Pridať adresu",
+      "update": "aktualizovať adresu",
+      "cancel": "Zrušiť",
+      "edit": "upraviť",
+      "delete": "odstrániť",
+      "delete_confirm": "Naozaj chcete túto adresu odstrániť?"
+    },
+    "log_in": "Prihlásiť sa",
+    "log_out": "Odhlásiť sa",
+    "login_page": {
+      "cancel": "Zrušiť",
+      "create_account": "Vytvoriť účet",
+      "email": "E-mail",
+      "forgot_password": "Zabudli ste heslo?",
+      "guest_continue": "pokračovať",
+      "guest_title": "Pokračovať ako hosť",
+      "password": "heslo",
+      "title": "Prihlásenie",
+      "sign_in": "Prihlásiť sa",
+      "submit": "Odoslať"
+    },
+    "order": {
+      "title": "Objednávka {{ name <\/ p5>",
+      "date_html": "Dátum vytvorenia: {{ date <\/ p5>",
+      "cancelled_html": "Dátum zrušenia objednávky: {{ date <\/ p5>",
+      "cancelled_reason": "Dôvod: {{ reason <\/ p5>",
+      "billing_address": "fakturačná adresa",
+      "payment_status": "stav platby",
+      "shipping_address": "Dodacia adresa",
+      "fulfillment_status": "stav plnenia",
+      "discount": "zľava",
+      "shipping": "doprava",
+      "tax": "daň",
+      "product": "produkt",
+      "sku": "SKU",
+      "price": "cena",
+      "quantity": "množstvo",
+      "total": "Celkom",
+      "fulfilled_at_html": "Splnené: {{ date <\/ p5>",
+      "track_shipment": "sledovať zásielku",
+      "tracking_url": "Odkaz pre sledovanie",
+      "tracking_company": "dopravca",
+      "tracking_number": "Číslo pre sledovanie",
+      "subtotal": "Medzisúčet"
+    },
+    "orders": {
+      "title": "História objednávok",
+      "order_number": "objednávka",
+      "order_number_link": "Číslo objednávky: {{ number <\/ p5>",
+      "date": "Dátum",
+      "payment_status": "stav platby",
+      "fulfillment_status": "stav plnenia",
+      "total": "Celkom"
+    }
   }
 }
