@@ -1082,8 +1082,16 @@
         "stock_problems_html": "Jedna alebo niekoľko položiek už neexistuje. Vytvorili sme <a href='%{link} '> aktualizovaný košík <\/a>.",
         "changed": "Košík sa zmenil",
         "items_changed": "Zmenila sa jedna alebo viac položiek.",
-        "product_sold_out": "Produkt \"%{name <\/ p8>\" je už vypredaný."
+        "product_sold_out": "Produkt \"%{name <\/ p8>\" je už vypredaný.",
+        "variant_not_found": "Variantu nemožno nájsť",
+        "variant_requires_selling_plan": "Variantu je možné kúpiť iba v rámci predajného plánu.",
+        "shipping_address_not_required": "Tento košík nevyžaduje expedíciu",
+        "shipping_address_invalid": "Pri výpočte sadzieb za dopravu vyskytol problém. Pred dokončením objednávky pokračujte k pokladni a vyberte sadzbu za dopravu.",
+        "selling_plan_not_applicable": "Pri variante nemožno použiť predajný plán"
       }
+    },
+    "cart": {
+      "discounts_with_count": "Počet použitých zliav: %{count <\/ p8>"
     }
   },
   "sections": {
@@ -1110,7 +1118,9 @@
       "login": {
         "title": "Máte účet?",
         "paragraph_html": "<T0> \"class =\" link underlined-link \"> Prihláste sa <\/a>, aby ste si urýchlili proces pokladnice."
-      }
+      },
+      "title": "Váš košík",
+      "caption": "položky košíka"
     },
     "footer": {
       "payment": "platobné metódy"
