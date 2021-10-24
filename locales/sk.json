@@ -985,7 +985,229 @@
       "discount_limit_reached": "U tejto zľavy bol dosiahnutý limit využitie",
       "discount_not_found": "Nemožno nájsť platnú zľavu zodpovedajúce zadanému kódu",
       "customer_already_used_once_per_customer_discount_notice": "U tejto zľavy bol dosiahnutý limit využitie",
-      "gift_card_already_applied": "Kód už bol použitý na vašu pokladňu"
+      "gift_card_already_applied": "Kód už bol použitý na vašu pokladňu",
+      "gift_card_code_invalid": "Kód je neplatný",
+      "gift_card_currency_mismatch": "Darčekové karty v mene %{gift_card_currency <\/ p8> nemožno použiť na objednávky v mene %{checkout_currency <\/ p8>",
+      "gift_card_depleted": "Na tejto darčekové karte nezostávajú žiadne prostriedky",
+      "gift_card_disabled": "Darčeková karta je deaktivovaná",
+      "gift_card_expired": "Darčekové karte skončila platnosť",
+      "invalid": "je neplatné",
+      "bad_domain": "obsahuje neplatný názov domény",
+      "taken": "už sa používa",
+      "contains_html_tags": "nemôže obsahovať HTML tagy",
+      "too_short": "je príliš krátke (min. počet znakov je %{count <\/ p8>)",
+      "too_long": "je príliš dlhé (max. počet znakov je %{count <\/ p8>)",
+      "password_mismatch": "musí zodpovedať zadanému heslu.",
+      "contains_spaces": "začína alebo končí medzerami.",
+      "email_domain_invalid": "poskytovateľ nie je podporovaný",
+      "invalid_for_country": "neplatí pre krajinu %{country <\/ p8>",
+      "invalid_for_country_and_province": "neplatí pre provinciu %{province <\/ p8> a krajinu %{country <\/ p8>",
+      "invalid_province_in_country": "nie je platnou provincií v krajine %{country <\/ p8>",
+      "invalid_state_in_country": "nie je platným štátom v krajine %{country <\/ p8>",
+      "invalid_region_in_country": "nie je platným regiónom v krajine %{country <\/ p8>",
+      "less_than_or_equal_to": "musí byť menšie alebo rovné %{count <\/ p8>",
+      "not_supported": "nie je podporované",
+      "full_name_required": "Zadajte meno a priezvisko",
+      "invalid_for_card_type": "nie je platné",
+      "invalid_type": "ospravedlňujeme sa, ale karty tohto typu neakceptujeme",
+      "invalid_format": "formát nie je platný",
+      "expired": "platnosť vypršala",
+      "invalid_start_date_or_issue_number_for_debit": "je požadované platné počiatočný dátum alebo číslo vydania",
+      "invalid_expiry_year": "nie je platným rokom vypršania platnosti",
+      "reset_password_html": "Táto e-mailová adresa je už spojená s nejakým účtom. Pokiaľ tento účet patrí vám, môžete <a href=\"\/account\/login#recover\"> resetovať heslo <\/a>",
+      "verify_email": "Poslali sme e-mail na adresu %{customer_email <\/ p8>. Kliknite na zahrnutý odkaz a overte tak svoju e-mailovú adresu.",
+      "blocked_address": "Táto lokalita nie je podporovaná."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Chyba resetovanie hesla",
+        "no_account_found": "Nebol nájdený žiadny účet s týmto e-mailom.",
+        "invalid_credentials": "Nesprávny e-mail alebo heslo."
+      },
+      "address": {
+        "updated": "Adresa bola úspešne aktualizovaná.",
+        "error_updating": "Chyba pri aktualizácii adresy",
+        "created": "Adresa úspešne vytvorená",
+        "error_creating": "Chyba pri vytváraní adresy.",
+        "deleted": "Adresa úspešne zmazaná",
+        "error_deleting": "Chyba pri mazaní adresy."
+      },
+      "order": {
+        "not_available": "Táto objednávka nie je k dispozícii",
+        "financial_status": {
+          "authorized": "autorizované",
+          "pending": "čaká",
+          "paid": "zaplatené",
+          "unpaid": "nezaplatené",
+          "voided": "zrušené",
+          "partially_paid": "čiastočne zaplatené",
+          "partially_refunded": "čiastočne vrátený",
+          "refunded": "vrátený",
+          "expired": "Po konci platnosti"
+        },
+        "fulfillment_status": {
+          "fulfilled": "splnené",
+          "complete": "dokončiť",
+          "partial": "čiastočné",
+          "unfulfilled": "nesplnené",
+          "restocked": "Skladové zásoby vrátené"
+        },
+        "transaction_status": {
+          "success": "podarilo sa",
+          "pending": "čaká",
+          "failure": "neúspech",
+          "error": "chyba"
+        },
+        "cancel_reason": {
+          "declined": "Platba zamietnutá",
+          "inventory": "položky nedostupné",
+          "fraud": "podvodné objednávka",
+          "customer": "Zákazník zmenil \/ zrušil objednávku",
+          "other": "iné",
+          "few": "iné",
+          "many": "iné"
+        },
+        "cash_on_delivery": "Platba na dobierku (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "Do košíku môžete pridať iba: %{count <\/ p8> %{name <\/ p8>.",
+        "too_many_items_in_cart": "Do košíka nemôžete pridať viac položiek %{name <\/ p8>.",
+        "all_items_in_cart": "V košíku máte všetko: %{count <\/ p8> %{name <\/ p8>.",
+        "empty_update": "nemožno aktualizovať prázdny košík",
+        "missing_parameters": "neexistuje platné id alebo parameter riadku",
+        "generic_error": "chyba košíka",
+        "too_many_line_items_error": "Váš košík nemôže obsahovať viac predmetov ako: %{max <\/ p8>.",
+        "link_expired": "Platnosť odkazu vypršala",
+        "link_no_longer_exists": "Odkaz už neexistuje.",
+        "stock_problems_html": "Jedna alebo niekoľko položiek už neexistuje. Vytvorili sme <a href='%{link} '> aktualizovaný košík <\/a>.",
+        "changed": "Košík sa zmenil",
+        "items_changed": "Zmenila sa jedna alebo viac položiek.",
+        "product_sold_out": "Produkt \"%{name <\/ p8>\" je už vypredaný."
+      }
+    }
+  },
+  "sections": {
+    "cart": {
+      "remove_title": "Odobrať: {{ title <\/ p5>",
+      "subtotal": "Medzisúčet",
+      "new_subtotal": "nový medzisúčet",
+      "note": "Zvláštne pokyny k objednávke",
+      "checkout": "Prejsť k pokladni",
+      "empty": "Košík je prázdny",
+      "cart_error": "Pri aktualizácii vášho košíka sa vyskytla chyba. Skúste to prosím znova.",
+      "cart_quantity_error_html": "Do košíku môžete pridať len nasledujúce množstvo danej položky: [quantity].",
+      "taxes_and_shipping_policy_at_checkout_html": "Dane a <a href=\"{{ link }} \"> poštovné <\/a> sa vypočítajú na pokladni",
+      "taxes_included_but_shipping_at_checkout": "Príslušná daň a poštovné sa vypočítajú na pokladni",
+      "taxes_included_and_shipping_policy_html": "Vrátane dane. <T0> \"> Poštovné <\/a> sa vypočíta na pokladni.",
+      "taxes_and_shipping_at_checkout": "Dane a poštovné sa vypočítajú na pokladni",
+      "headings": {
+        "product": "produkt",
+        "price": "cena",
+        "total": "Celkom",
+        "quantity": "množstvo"
+      },
+      "update": "aktualizovať",
+      "login": {
+        "title": "Máte účet?",
+        "paragraph_html": "<T0> \"class =\" link underlined-link \"> Prihláste sa <\/a>, aby ste si urýchlili proces pokladnice."
+      }
+    },
+    "footer": {
+      "payment": "platobné metódy"
+    },
+    "featured_blog": {
+      "view_all": "zobraziť všetko",
+      "onboarding_title": "Blogový príspevok",
+      "onboarding_content": "Zhrňte pre zákazníkov obsah svojho blogového príspevku"
+    },
+    "featured_collection": {
+      "view_all": "zobraziť všetko",
+      "view_all_label": "Zobraziť všetky produkty v kolekcii {{ collection_name <\/ p5>"
+    },
+    "collection_list": {
+      "view_all": "zobraziť všetko"
+    },
+    "collection_template": {
+      "apply": "použiť",
+      "clear": "vymazať",
+      "clear_all": "vymazať všetko",
+      "empty": "Neboli nájdené žiadne produkty",
+      "from": "od",
+      "filter_and_sort": "Filtrovanie a zoradenie",
+      "filter_by_label": "filtrovať:",
+      "filter_button": "Filtrovať",
+      "filters_selected": {
+        "one": "Vybraných: {{ count <\/ p5>",
+        "other": "Vybraných: {{ count <\/ p5>"
+      },
+      "max_price": "Najvyššia cena je {{ price <\/ p5>",
+      "product_count": {
+        "one": "<P5product_count <\/ p5> z {{ count <\/ p5> produktu",
+        "other": "<P5product_count <\/ p5> z {{ count <\/ p5> produktov"
+      },
+      "product_count_simple": {
+        "one": "Počet produktov: {{ count <\/ p5>",
+        "other": "Počet produktov: {{ count <\/ p5>"
+      },
+      "reset": "obnoviť",
+      "sort_button": "zoradiť",
+      "sort_by_label": "Zoradiť podľa:",
+      "title": "Kolekcia",
+      "to": "do",
+      "use_fewer_filters_html": "Môžete použiť menej filtrov alebo <a class=\"{{ class }} \"href =\" {{ link <\/ p5> \"> vymazať všetko <\/a>."
+    },
+    "video": {
+      "load_video": "Načítať video: {{ description <\/ p5>"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "Zadajte heslo, aby ste mohli vstúpiť do obchodu:",
+      "login_password_button": "Vstúpiť pomocou hesla",
+      "login_form_password_label": "heslo",
+      "login_form_password_placeholder": "Vaše heslo",
+      "login_form_error": "Heslo nie je správne!",
+      "login_form_submit": "zadať",
+      "modal": "Modálne okno hesla",
+      "admin_link_html": "Ste majiteľom obchodu? <T0> Prihláste sa tu <\/a>",
+      "powered_by_shopify_html": "Obchod bude využívať platformu {{ shopify <\/ p5>"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Zdieľať na Facebooku",
+        "share_on_twitter": "Odoslanie príspevku tweet na Twitteri",
+        "share_on_pinterest": "Pripnúť na Pinterestu"
+      },
+      "links": {
+        "twitter": "Twitter",
+        "facebook": "facebook",
+        "pinterest": "pinterest",
+        "instagram": "Instagram",
+        "tumblr": "tumblr",
+        "snapchat": "snapchat",
+        "youtube": "YouTube",
+        "vimeo": "Vimeo",
+        "tiktok": "TikTok"
+      }
+    },
+    "continue_shopping": "Pokračovať v nákupe",
+    "pagination": {
+      "label": "Stránkovanie",
+      "page": "Strana {{ number <\/ p5>",
+      "next": "Ďalšia stránka",
+      "previous": "Predchádzajúca stránka"
+    },
+    "search": {
+      "search": "hľadanie"
+    },
+    "cart": {
+      "view": "Zobraziť košík ({{ count <\/ p5>)",
+      "item_added": "Položka bola pridaná do košíka"
+    },
+    "share": {
+      "close": "Zavrieť okno pre zdieľanie",
+      "copy_to_clipboard": "kopírovať odkaz",
+      "share_url": "odkaz"
     }
   }
 }
