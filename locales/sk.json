@@ -16,7 +16,7 @@
         "pay_now_button_label": "zaplatiť",
         "authenticate_purchase_button_label": "overiť platbu",
         "edit_link_label": "upraviť",
-        "all_rights_reserved": "Všetky práva vyhradené %{shop_name <\/ p8>",
+        "all_rights_reserved": "Všetky práva vyhradené %{shop_name}",
         "print_policies_link_label": "tlač",
         "cart": "košík",
         "close_modal_label": "Zavrieť",
@@ -35,8 +35,8 @@
         "contact_us_html": "Ak potrebujete ďalšie informácie, kontaktujte nás",
         "autocomplete_title": "návrhy",
         "autocomplete_single_item": "Jedna položka k dispozícii",
-        "autocomplete_multi_item": "Položky k dispozícii: {{number <\/ p6>",
-        "autocomplete_selection": "<P6number <\/ p6> \/ {{total <\/ p6>",
+        "autocomplete_multi_item": "Položky k dispozícii: {{number }}",
+        "autocomplete_selection": "{{ number }} \/ {{total }}",
         "autocomplete_close": "Zavrieť návrhy",
         "tooltip_accessibility_label": "podrobnosti",
         "forwarding_indicator": {
@@ -45,7 +45,7 @@
           "external_and_new_window": "Otvorí externý webovú stránku v novom okne."
         },
         "checkout_context": {
-          "step_one": "<P8shop_name <\/ p8> - Pokladňa"
+          "step_one": "%{shop_name} - Pokladňa"
         }
       },
       "contact": {
@@ -120,7 +120,7 @@
         "pick_up_locations": "miesta vyzdvihnutie"
       },
       "customer_account": {
-        "not_user_label": "Nie ste %{first_name <\/ p8>?",
+        "not_user_label": "Nie ste %{first_name}?",
         "have_an_account_label": "Už máte svoj účet?",
         "sign_in_link_label": "Prihlásiť sa",
         "sign_out_link_label": "Odhlásiť sa",
@@ -137,14 +137,14 @@
         "removed_from_cart_notice": "Odstránené z košíka",
         "sold_out_label": "Vypredané",
         "reduced_label": "znížené",
-        "reduced_with_quantity_label": "Zostáva len: %{quantity_available <\/ p8>",
+        "reduced_with_quantity_label": "Zostáva len: %{quantity_available}",
         "remove_from_cart_button_label": "Odstrániť z košíka",
         "continue_shopping_button_label": "pokračovať",
         "go_back_to_cart_button_label": "Vrátiť sa do košíka"
       },
       "order_summary": {
         "title": "Prehľad objednávky",
-        "order_name_label": "Objednávka %{name <\/ p8>",
+        "order_name_label": "Objednávka %{name}",
         "shopping_cart_label": "Nákupný košík",
         "discount_title": "zľava",
         "discount_label": "Zľavový kód",
@@ -159,17 +159,17 @@
         "remove_discount_label": "Odobrať zľavu",
         "free_shipping_discount_label": "doprava zdarma",
         "apply_discount_button_label": "použiť",
-        "applied_discount_message": "Zľava %{amount <\/ p8> z celkovej ceny objednávky",
+        "applied_discount_message": "Zľava %{amount} z celkovej ceny objednávky",
         "discount_has_been_applied": "Zľava bola použitá",
         "discount_has_been_removed": "Zľava bola odstránená",
         "gift_card_has_been_applied": "Darčeková karta bola použitá",
         "gift_card_has_been_removed": "Darčeková karta bola odstránená",
         "discount_already_applied": "Na túto objednávku bola aplikovaná zľava. Nemôžete pridať ďalšiu zľavu.",
-        "cart_does_not_meet_discount_requirements_notice": "Zľavový kód <strong style=\"text-transform:uppercase\"> %{code <\/ p8> <\/strong> nie je pre položky vo vašom košíku platný",
-        "discount_requires_customer_notice": "Ak chcete uplatniť zľavový kód <strong style=\"text-transform:uppercase\"> %{code <\/ p8> <\/strong>, zadajte informácie o doprave",
-        "customer_does_not_meet_discount_requirements_notice": "Zľavový kód <strong style=\"text-transform:uppercase\"> %{code <\/ p8> <\/strong> je momentálne nedostupný",
-        "shipping_information_does_not_meet_discount_requirements_notice": "Zľavový kód <strong style=\"text-transform:uppercase\"> %{code <\/ p8> <\/strong> nie je pre vašu dodaciu adresu k dispozícii",
-        "customer_already_used_once_per_customer_discount_notice": "Zľavový kód <strong style=\"text-transform:uppercase\"> %{code <\/ p8> <\/strong> už bol použitý",
+        "cart_does_not_meet_discount_requirements_notice": "Zľavový kód <strong style=\"text-transform:uppercase\"> %{code} <\/strong> nie je pre položky vo vašom košíku platný",
+        "discount_requires_customer_notice": "Ak chcete uplatniť zľavový kód <strong style=\"text-transform:uppercase\"> %{code} <\/strong>, zadajte informácie o doprave",
+        "customer_does_not_meet_discount_requirements_notice": "Zľavový kód <strong style=\"text-transform:uppercase\"> %{code} <\/strong> je momentálne nedostupný",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Zľavový kód <strong style=\"text-transform:uppercase\"> %{code} <\/strong> nie je pre vašu dodaciu adresu k dispozícii",
+        "customer_already_used_once_per_customer_discount_notice": "Zľavový kód <strong style=\"text-transform:uppercase\"> %{code} <\/strong> už bol použitý",
         "subtotal_label": "Medzisúčet",
         "shipping_label": "doprava",
         "tip_label": "prepitné",
@@ -184,10 +184,10 @@
         "free_total_label": "zadarmo",
         "paid_label": "zaplatené",
         "payment_due_label": "splatnosť",
-        "vat_label_html": "Vrátane dane: %{amount <\/ p8>",
-        "discount_and_gift_card_savings_notice": "Po zľave %{discount_amount <\/ p8> a po využití %{gift_card_amount <\/ p8> z darčekových kariet",
-        "discount_savings_notice": "Po zľave %{discount_amount <\/ p8>",
-        "gift_card_savings_notice": "Po využití %{gift_card_amount <\/ p8> z darčekových kariet",
+        "vat_label_html": "Vrátane dane: %{amount}",
+        "discount_and_gift_card_savings_notice": "Po zľave %{discount_amount} a po využití %{gift_card_amount} z darčekových kariet",
+        "discount_savings_notice": "Po zľave %{discount_amount}",
+        "gift_card_savings_notice": "Po využití %{gift_card_amount} z darčekových kariet",
         "cost_table_title": "Zhrnutie ceny",
         "description_label": "popis",
         "price_label": "cena",
@@ -206,9 +206,9 @@
         "estimated_taxes_label": "Dane (odhad)",
         "unit_price": {
           "accessible_separator": "za",
-          "content_html": "<P8price <\/ p8> %{accessible_separator <\/ p8> %{per_unit <\/ p8>"
+          "content_html": "%{price} %{accessible_separator} %{per_unit}"
         },
-        "gift_card_ending": "Darčeková karta končiace na: %{last_characters <\/ p8>",
+        "gift_card_ending": "Darčeková karta končiace na: %{last_characters}",
         "estimated_tax_label": "odhadovaná daň",
         "multiple_shipping_lines_label": "doprava celkom",
         "applied_free_shipping_discount_label": "uplatnilo",
@@ -217,7 +217,7 @@
         "recurring_total_label": "Celková suma opakované platby",
         "recurring_total_tooltip": "Nezahŕňa dopravu, daň, clo ani platné zľavy.",
         "gift_card_subscriptions_notice": "Darčekové karty sa uplatňujú iba ak prvej platby",
-        "confirmation_number_label": "Potvrdenie č. <P8confirmation_number <\/ p8>"
+        "confirmation_number_label": "Potvrdenie č. %{confirmation_number}"
       },
       "shipping": {
         "title": "doprava",
@@ -231,23 +231,23 @@
         "free_rate_label": "zadarmo",
         "cheapest_rate_label": "najlacnejšie",
         "please_enter_your_shipping_information_notice": "Zadajte svoje údaje pre doručenie.",
-        "estimated_delivery_date_range": "<P8 minimum <\/ p8> a %{ maximum <\/ p8> pracovných dní",
+        "estimated_delivery_date_range": "%{ minimum} a %{ maximum} pracovných dní",
         "shipping_line_phone_label": "Číslo mobilu (povinné)",
         "shipping_line_phone": "Váš kuriér vás môže kontaktovať na tomto čísle.",
-        "shipping_rate_discounted_amount": "Skôr: %{original_amount <\/ p8>. Teraz: %{amount <\/ p8>",
+        "shipping_rate_discounted_amount": "Skôr: %{original_amount}. Teraz: %{amount}",
         "optional_shipping_line_delivery_instructions_label": "Pokyny k doručenie (voliteľné)",
         "estimated_delivery_date": {
           "one": "1 pracovný deň",
-          "other": "<P8count <\/ p8> pracovných dní",
-          "few": "<P8count <\/ p8> pracovných dní",
-          "many": "<P8count <\/ p8> pracovných dní"
+          "other": "%{count} pracovných dní",
+          "few": "%{count} pracovných dní",
+          "many": "%{count} pracovných dní"
         },
         "other_method": {
           "zero": "Nie sú k dispozícii žiadne iné metódy",
           "one": "K dispozícii jedna ďalšia metóda za",
-          "other": "K dispozícii sú %{count <\/ p8> ďalšie metódy od",
-          "few": "K dispozícii sú %{count <\/ p8> ďalšie metódy od",
-          "many": "K dispozícii sú %{count <\/ p8> ďalšie metódy od"
+          "other": "K dispozícii sú %{count} ďalšie metódy od",
+          "few": "K dispozícii sú %{count} ďalšie metódy od",
+          "many": "K dispozícii sú %{count} ďalšie metódy od"
         },
         "shipping_line_delivery_phone": "Je možné, že vám na toto číslo zavoláme alebo napíšeme ohľadom doručenia.",
         "shipping_line_delivery_phone_label": "číslo mobilu",
@@ -259,63 +259,63 @@
         "one_time_purchase_shipping": "Doprava pre jednorazový nákup",
         "subscription_delivery_description": {
           "prepaid_delivery_frequency": {
-            "one": "pre %{count <\/ p8> doručenia",
-            "other": "pre %{count <\/ p8> doručenia",
-            "few": "pre %{count <\/ p8> doručenia",
-            "many": "pre %{count <\/ p8> doručenia"
+            "one": "pre %{count} doručenia",
+            "other": "pre %{count} doručenia",
+            "few": "pre %{count} doručenia",
+            "many": "pre %{count} doručenia"
           },
           "subscription_delivery_frequency": {
             "day": {
               "one": "každý deň",
-              "other": "každý %{count <\/ p8>. deň",
-              "few": "každý %{count <\/ p8>. deň",
-              "many": "každý %{count <\/ p8>. deň"
+              "other": "každý %{count}. deň",
+              "few": "každý %{count}. deň",
+              "many": "každý %{count}. deň"
             },
             "week": {
               "one": "každý týždeň",
-              "other": "každý %{count <\/ p8>. týždeň",
-              "few": "každý %{count <\/ p8>. týždeň",
-              "many": "každý %{count <\/ p8>. týždeň"
+              "other": "každý %{count}. týždeň",
+              "few": "každý %{count}. týždeň",
+              "many": "každý %{count}. týždeň"
             },
             "month": {
               "one": "každý mesiac",
-              "other": "každý %{count <\/ p8>. mesiac",
-              "few": "každý %{count <\/ p8>. mesiac",
-              "many": "každý %{count <\/ p8>. mesiac"
+              "other": "každý %{count}. mesiac",
+              "few": "každý %{count}. mesiac",
+              "many": "každý %{count}. mesiac"
             },
             "year": {
               "one": "každý rok",
-              "other": "každý %{count <\/ p8>. rok",
-              "few": "každý %{count <\/ p8>. rok",
-              "many": "každý %{count <\/ p8>. rok"
+              "other": "každý %{count}. rok",
+              "few": "každý %{count}. rok",
+              "many": "každý %{count}. rok"
             }
           },
-          "multiple_subscriptions_shipping_price_label": "<P8shipping_price <\/ p8> pri doručení",
-          "prepaid_shipping_price_label": "<P8shipping_price <\/ p8> pri doručení x %{delivery_interval_count <\/ p8>",
-          "initial_order_discounted": "Prvá cena za dopravu: %{discounted_shipping_cost <\/ p8>, potom %{frequency_description <\/ p8>",
-          "prepaid_initial_order_discounted": "Prvá cena za dopravu: %{discounted_shipping_price <\/ p8> %{prepaid_delivery_frequency <\/ p8>",
-          "prepaid_initial_order_discounted_with_per_delivery_price": "Prvá cena za dopravu: %{discounted_shipping_price <\/ p8> %{prepaid_delivery_frequency <\/ p8> (%{discounted_cost_per_delivery <\/ p8>)",
-          "prepaid_initial_order_discounted_with_renewal": "Prvá cena za dopravu: %{discounted_shipping_price <\/ p8> %{prepaid_delivery_frequency <\/ p8>, potom %{shipping_price <\/ p8> %{billing_cycle <\/ p8>",
-          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Prvá cena za dopravu: %{discounted_shipping_price <\/ p8> %{prepaid_delivery_frequency <\/ p8> (%{discounted_cost_per_delivery <\/ p8>), potom %{shipping_price <\/ p8> %{billing_cycle <\/ p8>",
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} pri doručení",
+          "prepaid_shipping_price_label": "%{shipping_price} pri doručení x %{delivery_interval_count}",
+          "initial_order_discounted": "Prvá cena za dopravu: %{discounted_shipping_cost}, potom %{frequency_description}",
+          "prepaid_initial_order_discounted": "Prvá cena za dopravu: %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Prvá cena za dopravu: %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Prvá cena za dopravu: %{discounted_shipping_price} %{prepaid_delivery_frequency}, potom %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Prvá cena za dopravu: %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), potom %{shipping_price} %{billing_cycle}",
           "shipping_price_included": "(Vrátane)",
-          "recurring_order_shipping_price": "nasleduje: %{recurring_order_shipping_price <\/ p8>",
-          "first_order_shipping_price_included": "Vrátane prvej objednávky, ktorú nasleduje %{recurring_order_shipping_price <\/ p8>",
-          "first_order_different_shipping_price": "<P8first_order_shipping_price <\/ p8> (%{per_delivery_price <\/ p8> \/ doručenie), nasleduje %{recurring_order_shipping_price <\/ p8>",
+          "recurring_order_shipping_price": "nasleduje: %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Vrátane prvej objednávky, ktorú nasleduje %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} \/ doručenie), nasleduje %{recurring_order_shipping_price}",
           "first_n_order_free": {
             "one": "Prvá objednávka zadarmo",
-            "other": "1. %{count <\/ p8> objednávať. zadarmo",
-            "few": "1. %{count <\/ p8> objednávať. zadarmo",
-            "many": "1. %{count <\/ p8> objednávať. zadarmo"
+            "other": "1. %{count} objednávať. zadarmo",
+            "few": "1. %{count} objednávať. zadarmo",
+            "many": "1. %{count} objednávať. zadarmo"
           },
           "free_for_first_n_order": {
             "one": "Pri prvej objednávke",
-            "other": "Pri prvých %{count <\/ p8> objednávkach",
-            "few": "Pri prvých %{count <\/ p8> objednávkach",
-            "many": "Pri prvých %{count <\/ p8> objednávkach"
+            "other": "Pri prvých %{count} objednávkach",
+            "few": "Pri prvých %{count} objednávkach",
+            "many": "Pri prvých %{count} objednávkach"
           }
         },
-        "estimated_delivery_time": "Odhadované doručenie: %{time <\/ p8>",
-        "estimated_delivery_time_range": "Odhadované doručenie: %{min_time <\/ p8> - %{max_time <\/ p8>"
+        "estimated_delivery_time": "Odhadované doručenie: %{time}",
+        "estimated_delivery_time_range": "Odhadované doručenie: %{min_time} - %{max_time}"
       },
       "payment": {
         "amazon_payments_label": "amazon Pay",
@@ -331,7 +331,7 @@
         "apply_gift_card_button_label": "použiť",
         "gift_card_balance_label": "zostatok:",
         "supported_card_brands_more_label": "a viac ...",
-        "detected_card_brand": "Zistená značka karty: {brand <\/ p8>",
+        "detected_card_brand": "Zistená značka karty: {brand}",
         "card_number_label": "číslo karty",
         "card_number_placeholder": "číslo karty",
         "card_pay_with": "Zaplatiť pomocou:",
@@ -351,16 +351,16 @@
         "card_issue_number_label": "číslo vydania",
         "card_issue_number_placeholder": "číslo vydania",
         "card_change_label": "zmeniť",
-        "ends_with_label": "končí %{last_digits <\/ p8>",
-        "masked_digits_label": "•••• %{last_digits <\/ p8>",
-        "saved_by_payment_method": "Uložené: %{payment_method <\/ p8>",
-        "pay_with_payment_method": "Zaplatené: %{payment_method <\/ p8>",
+        "ends_with_label": "končí %{last_digits}",
+        "masked_digits_label": "•••• %{last_digits}",
+        "saved_by_payment_method": "Uložené: %{payment_method}",
+        "pay_with_payment_method": "Zaplatené: %{payment_method}",
         "same_billing_address_label": "Rovnaká ako dodacia adresa",
         "different_billing_address_label": "Použiť inú fakturačnú adresu",
         "free_order_notice_html": "Vaša objednávka je <strong> zadarmo <\/strong>. Nie sú potrebné žiadne platby.",
         "express_checkout_free_order": "Nebude vám nič účtované za objednávku zdarma",
-        "offsite_gateway_redirect_hint": "Po kliknutí na \"%{button_label <\/ p8>\" dôjde k presmerovaniu na bránu %{gateway_label <\/ p8>, kde môžete bezpečne dokončiť svoj nákup.",
-        "offsite_gateway_redirect_hint_multi_currency_html": "<P8gateway_label <\/ p8>, súčet: %{total_shop_price <\/ p8>",
+        "offsite_gateway_redirect_hint": "Po kliknutí na \"%{button_label}\" dôjde k presmerovaniu na bránu %{gateway_label}, kde môžete bezpečne dokončiť svoj nákup.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label}, súčet: %{total_shop_price}",
         "billing_address_title": "fakturačná adresa",
         "billing_address_description": "Vyberte adresu, ktorá sa zhoduje s adresou uvedenou na vašej karte alebo v platobnej metóde.",
         "billing_address_description_no_shipping_address": "Zadajte adresu, ktorá sa zhoduje s adresou uvedenou na vašej karte alebo v platobnej metóde.",
@@ -400,7 +400,7 @@
           "few": "Platby kreditnou a debetnou kartou nie sú v tejto chvíli dostupné. <br> <a href=\"%{current_url} \"> Obnovte túto stránku <\/a> alebo skúste inú platobnú metódu.",
           "many": "Platby kreditnou a debetnou kartou nie sú v tejto chvíli dostupné. <br> <a href=\"%{current_url} \"> Obnovte túto stránku <\/a> alebo skúste inú platobnú metódu."
         },
-        "subscription_agreement_label_html": "Uvedomujem si, že dávam súhlas s predplatným. Bude sa predlžovať za uvedenú cenu a s daným opakovaním, pokiaľ neskončí alebo nebude\n<T0> \"href =\" %{policy_href <\/ p8> \"> zrušené <\/a>.",
+        "subscription_agreement_label_html": "Uvedomujem si, že dávam súhlas s predplatným. Bude sa predlžovať za uvedenú cenu a s daným opakovaním, pokiaľ neskončí alebo nebude\n<T0> \"href =\" %{policy_href} \"> zrušené <\/a>.",
         "waiting_on_payment_methods": "Získavanie platobnej metód k dispozícii ...",
         "apple_pay_payment_error": "Vaša platba nemohla byť dokončená. Skúste to znovu alebo použite inú platobnú metódu.",
         "subscription_card_update_agreement_label": "Zmenou platobné metódy dôjde k aktualizácii vášho predplatného a budúcich opakovaných platieb.",
@@ -411,7 +411,7 @@
         "paypal": {
           "connect": "Kliknite a pripojte sa k svojmu účtu PayPal"
         },
-        "subscription_agreement_label": "Uvedomujem si, že dávam súhlas s predplatným. Bude sa obnovovať za uvedenú cenu a s daným opakovaním, pokiaľ neskončí alebo nebude %{cancelled <\/ p8>.",
+        "subscription_agreement_label": "Uvedomujem si, že dávam súhlas s predplatným. Bude sa obnovovať za uvedenú cenu a s daným opakovaním, pokiaľ neskončí alebo nebude %{cancelled}.",
         "subscription_agreement_cancelled": "zrušené",
         "card_expired": "Po konci platnosti",
         "card_verification_confirm": "Zadajte prosím na účely overenia bezpečnostný kód svojej karty.",
@@ -430,15 +430,15 @@
         "delete_customer_mandate_modal_confirm": "Odobrať",
         "delete_customer_mandate_modal_cancel": "Zrušiť",
         "maximum_vaulted_card_info": {
-          "one": "Na svojom účte si môžete uložiť maximálne %{count <\/ p8> kreditnú kartu.",
-          "other": "Na svojom účte si môžete uložiť maximálne tento počet kreditných kariet: %{count <\/ p8>.",
-          "few": "Na svojom účte si môžete uložiť maximálne tento počet kreditných kariet: %{count <\/ p8>.",
-          "many": "Na svojom účte si môžete uložiť maximálne tento počet kreditných kariet: %{count <\/ p8>."
+          "one": "Na svojom účte si môžete uložiť maximálne %{count} kreditnú kartu.",
+          "other": "Na svojom účte si môžete uložiť maximálne tento počet kreditných kariet: %{count}.",
+          "few": "Na svojom účte si môžete uložiť maximálne tento počet kreditných kariet: %{count}.",
+          "many": "Na svojom účte si môžete uložiť maximálne tento počet kreditných kariet: %{count}."
         }
       },
       "payment_summary": {
-        "gift_card_current_balance_notice": "Aktuálny zostatok %{amount <\/ p8>",
-        "credit_card_expires_on_notice": "Platnosť vyprší: %{month <\/ p8> \/ %{year <\/ p8>",
+        "gift_card_current_balance_notice": "Aktuálny zostatok %{amount}",
+        "credit_card_expires_on_notice": "Platnosť vyprší: %{month} \/ %{year}",
         "express_payment_gateway_label": "Expresné",
         "manual_payment_gateway_label": "manuálne",
         "billing_address_title": "fakturačná adresa",
@@ -461,8 +461,8 @@
         "address_company_blank": "Zadajte názov spoločnosti",
         "address_phone_blank": "Zadajte platné telefónne číslo",
         "address_zip_blank": "Zadajte PSČ",
-        "address_zip_invalid_for_country": "Zadajte platné PSČ pre krajinu %{country <\/ p8>",
-        "address_zip_invalid_for_country_and_province": "Zadajte platné PSČ pre provinciu %{province <\/ p8>, %{country <\/ p8>",
+        "address_zip_invalid_for_country": "Zadajte platné PSČ pre krajinu %{country}",
+        "address_zip_invalid_for_country_and_province": "Zadajte platné PSČ pre provinciu %{province}, %{country}",
         "credit_card_name_blank": "Uveďte svoje meno presne tak, ako je uvedené na vašej karte",
         "credit_card_name_invalid": "Uveďte svoje meno presne tak, ako je uvedené na vašej karte",
         "credit_card_number_invalid": "Zadajte platné číslo karty",
@@ -483,7 +483,7 @@
         "gift_card_disabled": "Táto darčeková karta už nie je k dispozícii",
         "gift_card_expired": "Platnosť tejto darčekové karty vypršala",
         "gift_card_depleted": "Na tejto darčekové karte nezostávajú žiadne prostriedky",
-        "gift_card_currency_mismatch": "Pri tejto objednávky je možné použiť len darčekové karty v mene %{checkout_currency <\/ p8>",
+        "gift_card_currency_mismatch": "Pri tejto objednávky je možné použiť len darčekové karty v mene %{checkout_currency}",
         "payment_gateway_needs_paid_plan_error": "Táto platobná metóda nie je v obchode v túto chvíľu k dispozícii",
         "payment_gateway_incompatible_with_multi_currency": "Na dokončenie tejto pokladnice v miestnej mene musíte zaplatiť kreditnou kartou.",
         "subscription_agreement_blank": "Pokiaľ chcete v nákupe pokračovať, vyjadrite svoj súhlas s podmienkami predplatného",
@@ -491,7 +491,7 @@
         "physical_gift_card_duplicate_code": "Samostatná položka fyzickej darčekové karty obsahuje duplicitné kód.",
         "physical_gift_card_invalid_code": "Kód fyzickej darčekové karty je neplatný.",
         "payment_gateway_not_in_test_mode": "nie je nastavený na testovanie objednávok. Tento obchod nevie prijímať skutočné objednávky ani skutočné platby.",
-        "tips_invalid_tip_amount": "Zadajte prepitné v maximálnej výške %{amount <\/ p8>",
+        "tips_invalid_tip_amount": "Zadajte prepitné v maximálnej výške %{amount}",
         "payment_gateway_unsupported_for_subscriptions": "Táto platobná metóda nie je u objednávok predplatného k dispozícii.",
         "sms_marketing_phone_invalid": "Zadajte platné telefónne číslo"
       },
@@ -501,7 +501,7 @@
         "credit_card_processing": "Vašu platbu nebolo možné z technických dôvodov spracovať. Skúste to znova za niekoľko minút alebo použite inú platobnú metódu.",
         "order_total_changed": "Súčet vašej objednávky sa zmenil. Obnovte svoj košík a skúste to znova.",
         "payment_processing": "Vašu platbu nebolo možné z technických dôvodov spracovať. Skúste to znovu alebo použite inú platobnú metódu.",
-        "paypal_zero_amount": "Nemôžete použiť PayPal pre objednávky za %{amount <\/ p8>. Potvrďte správnosť svojej objednávky a prejdite pokladňou bez použitia služby PayPal.",
+        "paypal_zero_amount": "Nemôžete použiť PayPal pre objednávky za %{amount}. Potvrďte správnosť svojej objednávky a prejdite pokladňou bez použitia služby PayPal.",
         "paypal_invalid_token": "PayPal nebol k dispozícii. Skúste to znovu alebo použite inú možnosť platenia na pokladni.",
         "pay_later_failed": "Pri spracovaní vašej platby prostredníctvom služby Zaplatiť neskôr došlo k chybe. Vyberte si inú platobnú metódu a skúste to znova.",
         "three_d_secure_failed": "Vašu platbu nebolo možné overiť. Skúste to znovu alebo použite inú platobnú metódu.",
@@ -539,14 +539,14 @@
         "or": "ALEBO"
       },
       "alternative_payment_method": {
-        "button_html": "Pokladňa s metódou: %{method <\/ p8>",
-        "button_label": "Pokladňa s metódou: %{method <\/ p8>"
+        "button_html": "Pokladňa s metódou: %{method}",
+        "button_label": "Pokladňa s metódou: %{method}"
       },
       "paypal": {
-        "button_html": "Pokladňa s metódou %{logo <\/ p8>"
+        "button_html": "Pokladňa s metódou %{logo}"
       },
       "apple_pay": {
-        "button_html": "Kúpiť pomocou: %{logo <\/ p8>"
+        "button_html": "Kúpiť pomocou: %{logo}"
       },
       "processing": {
         "redirecting_page_title": "Presmerovanie ...",
@@ -566,13 +566,13 @@
         "wait": {
           "short": "Vaša objednávka sa spracováva.",
           "long": "Akonáhle vašu objednávku spracujeme, pošleme vám e-mail. V tejto chvíli prijímame veľké množstvo objednávok.",
-          "no_auto_refresh_html": "Pokiaľ nedôjde k automatickému presmerovanie, %{link <\/ p8>.",
+          "no_auto_refresh_html": "Pokiaľ nedôjde k automatickému presmerovanie, %{link}.",
           "refresh_this_page": "obnoviť túto stránku",
           "medium": {
             "one": "Vaša objednávka sa spracováva. Pravdepodobná doba čakania je jedna minúta.",
-            "other": "Vaša objednávka sa spracováva. Pravdepodobná doba čakania je %{count <\/ p8> min.",
-            "few": "Vaša objednávka sa spracováva. Pravdepodobná doba čakania je %{count <\/ p8> min.",
-            "many": "Vaša objednávka sa spracováva. Pravdepodobná doba čakania je %{count <\/ p8> min."
+            "other": "Vaša objednávka sa spracováva. Pravdepodobná doba čakania je %{count} min.",
+            "few": "Vaša objednávka sa spracováva. Pravdepodobná doba čakania je %{count} min.",
+            "many": "Vaša objednávka sa spracováva. Pravdepodobná doba čakania je %{count} min."
           }
         }
       },
@@ -591,23 +591,23 @@
       },
       "thank_you": {
         "title": "Ďakujeme za nákup!",
-        "confirmation_email_sent_text": "Potvrdzovací e-mail bol zaslaný na adresu %{email <\/ p8>",
+        "confirmation_email_sent_text": "Potvrdzovací e-mail bol zaslaný na adresu %{email}",
         "return_to_store_link_label": "Pokračovať v nákupe",
         "print_link_label": "Vytlačiť potvrdenie",
         "payment_information_title": "platobné údaje",
         "shipping_information_title": "Údaje o preprave",
-        "page_title": "Ďakujeme, %{display_name <\/ p8>!",
+        "page_title": "Ďakujeme, %{display_name}!",
         "page_title_no_name": "Ďakujeme!",
         "cancelled_page_title": "objednávka zrušená",
         "customer_information_title": "Informácie o zákazníkovi",
         "contact_information_title": "Kontaktné údaje",
         "billing_address_title": "fakturačná adresa",
         "shipping_address_title": "Dodacia adresa",
-        "shipping_address_map_title": "Zobrazenie dodacej adresy na mapách Google: %{address <\/ p8>",
+        "shipping_address_map_title": "Zobrazenie dodacej adresy na mapách Google: %{address}",
         "payment_method_title": "platobná metóda",
         "shipping_method_title": "metóda dopravy",
         "tracking_number": "Číslo pre sledovanie:",
-        "company_tracking_number": "<P8company <\/ p8> - číslo pre sledovanie:",
+        "company_tracking_number": "%{company} - číslo pre sledovanie:",
         "estimated_arrival": "Odhadované dátum doručenia:",
         "re-order": "Znovu objednať rovnaké položky",
         "confirmed": "potvrdené",
@@ -626,49 +626,49 @@
         "confirmed_title": "Vaša objednávka je potvrdená",
         "confirmed_description": "Prijali sme vašu objednávku a usilovne na nej pracujeme. Na tejto stránke nájdete nové informácie o stave svojej objednávky.",
         "order_updates_title": "aktualizácia objednávky",
-        "order_updates_description_html": "Aktualizácie budú zaslané sem: %{customer_contact <\/ p8>",
+        "order_updates_description_html": "Aktualizácie budú zaslané sem: %{customer_contact}",
         "order_updates_current_step_prefix": "Aktuálne krok:",
         "order_updates_past_step_prefix": "Minulý krok:",
         "order_updates_upcoming_step_prefix": "Budúci krok:",
         "in_transit": "na ceste",
         "in_transit_title": "Vaša objednávka je na ceste",
         "in_transit_description": "O priebehu jej spracovania budete priebežne informovaní.",
-        "in_transit_description_days": "Objednávka by vám mala byť doručená do %{number <\/ p8> dní.",
+        "in_transit_description_days": "Objednávka by vám mala byť doručená do %{number} dní.",
         "in_transit_description_today": "Objednávka by vám mala byť doručená dnes.",
         "in_transit_description_tomorrow": "Objednávka by vám mala byť doručená zajtra.",
         "no_tracking_number": "Pre túto objednávku nie je k dispozícii žiadne číslo pre sledovanie.",
         "out_for_delivery": "Vyexpedované",
         "out_for_delivery_title": "Vaša objednávka bola vyexpedovaná",
-        "out_for_delivery_description_html": "Vaša objednávka je na ceste a mala by doraziť ešte dnes. Pokiaľ nebude doručená v priebehu nasledujúcich 2 dní, %{contact_us <\/ p8>.",
+        "out_for_delivery_description_html": "Vaša objednávka je na ceste a mala by doraziť ešte dnes. Pokiaľ nebude doručená v priebehu nasledujúcich 2 dní, %{contact_us}.",
         "attempted_delivery": "Pokus o doručenie",
         "attempted_delivery_title": "Bol vykonaný pokus o doručenie vašej objednávky",
-        "attempted_delivery_description_html": "Bol vykonaný pokus o doručenie vašej objednávky, ale nebol úspešný. Prosím %{contact_us <\/ p8> a dohodnite si ďalší pokus o doručenie.",
+        "attempted_delivery_description_html": "Bol vykonaný pokus o doručenie vašej objednávky, ale nebol úspešný. Prosím %{contact_us} a dohodnite si ďalší pokus o doručenie.",
         "delivered": "doručené",
         "delivered_title": "Vaša objednávka bola doručená",
-        "delivered_description_html": "Vaša objednávka bola doručená na zadanú adresu. Ak ste ju nedostali alebo máte iný problém, %{contact_us <\/ p8>.",
+        "delivered_description_html": "Vaša objednávka bola doručená na zadanú adresu. Ak ste ju nedostali alebo máte iný problém, %{contact_us}.",
         "contact_us": "Kontaktujte nás",
         "contact_us_lowercase": "kontaktujte nás",
-        "contact_us_html": "Potrebujete pomoc? <P8contact_us <\/ p8>",
-        "updated_time": "Aktualizované pred: %{time_ago <\/ p8>",
+        "contact_us_html": "Potrebujete pomoc? %{contact_us}",
+        "updated_time": "Aktualizované pred: %{time_ago}",
         "failure": "nedoručené",
         "failed_title": "Vašu objednávku sa nepodarilo doručiť",
-        "failed_contact_merchant": "Za účelom dohodnutie dodávky kontaktujte spoločnosť %{company <\/ p8>.",
+        "failed_contact_merchant": "Za účelom dohodnutie dodávky kontaktujte spoločnosť %{company}.",
         "failed_contact_merchant_no_company": "Kontaktujte nás za účelom dohodnutia dodávky.",
         "non_shippable_title": "Vaša objednávka je dokončená",
         "login_title": "Prihláste sa a pozrite si všetky údaje objednávky",
         "login_description": "Svoje číslo objednávky nájdete v potvrdení zaslanom e-mailom.",
         "login_description_phone": "Číslo vašej objednávky nájdete v potvrdení, ktoré sme vám zaslali textovou správou.",
-        "login_not_customer_html": "Nie ste %{name <\/ p8>? Ale aj tak %{link <\/ p8>",
+        "login_not_customer_html": "Nie ste %{name}? Ale aj tak %{link}",
         "customer_information_hidden_fields_message": "Prihláste sa a pozrite sa na všetky údaje o zákazníkovi.",
         "cancelled_title": "Vaša objednávka bola zrušená",
-        "cancelled_description": "Vaša objednávka bola zrušená dňa %{date <\/ p8>. Ak budete mať akékoľvek otázky, kontaktujte nás.",
+        "cancelled_description": "Vaša objednávka bola zrušená dňa %{date}. Ak budete mať akékoľvek otázky, kontaktujte nás.",
         "order_number_label": "číslo objednávky",
         "customer_validation_error": "Zadajte platný e-mail alebo číslo objednávky.",
         "customer_validation_error_phone": "Zadajte platné telefónne číslo alebo číslo objednávky.",
         "login": "Prihlásiť sa",
         "unfulfilled_items_title": "Príprava na expedíciu",
         "unfulfilled_items_description": "Tieto položky práve pripravujeme na expedíciu.",
-        "opt_in_message_html": "Vaše údaje boli úspešne uložené do služby %{shopify_pay <\/ p8>",
+        "opt_in_message_html": "Vaše údaje boli úspešne uložené do služby %{shopify_pay}",
         "order_updates_description_missing": "Nedostávate žiadne aktualizácie zásielky.",
         "order_updates_subscribe_to_email_notifications": "Prijímať aktualizácie o zásielke e-mailom",
         "order_updates_subscribe_to_email_or_phone_notifications": "Získavať informácie o zásielke e-mailom alebo textovky",
@@ -684,7 +684,7 @@
         "ready_for_pickup_title": "Vaša objednávka je pripravená na vyzdvihnutie",
         "ready_for_pickup_description": "Vaša objednávka je pripravená na vyzdvihnutie. Pri vyzdvihnutí objednávky majte pripravené potvrdenie objednávky.",
         "picked_up_title": "Vaša objednávka bola vyzdvihnutá",
-        "picked_up_description_html": "Vaša objednávka bola vyzdvihnutá v lokalite %{location_name <\/ p8> dňa %{date <\/ p8>.",
+        "picked_up_description_html": "Vaša objednávka bola vyzdvihnutá v lokalite %{location_name} dňa %{date}.",
         "other_options": "Ďalšie možnosti",
         "shop_phone_description": "Obdržíte textovú správu s odkazom na aplikáciu Shop, ktorá vám pomôže sledovať vašu objednávku.",
         "login_reorder_link_text": {
@@ -705,7 +705,7 @@
           "quantity_label": "množstvo"
         },
         "shopify_pay": {
-          "order_completed_html": "Objednávka dokončená pomocou %{shopify_pay <\/ p8>",
+          "order_completed_html": "Objednávka dokončená pomocou %{shopify_pay}",
           "learn_more_label": "Zistite viac o službe Shop Pay"
         },
         "pick_up_in_store_marker": {
@@ -720,7 +720,7 @@
         "out_for_delivery_local_title": "Vaša objednávka sa doručuje",
         "out_for_delivery_local_description_html": "Vaša objednávka čoskoro dorazí.",
         "delivered_local_title": "Vaša objednávka bola doručená",
-        "delivered_local_description_html": "Nedostali ste svoju objednávku? <P8let_us_know <\/ p8>.",
+        "delivered_local_description_html": "Nedostali ste svoju objednávku? %{let_us_know}.",
         "let_us_know": "Dajte nám o tom vedieť",
         "qr_code": {
           "title": "Sledujte objednávku cez telefón",
@@ -732,14 +732,14 @@
         "gift_card_title": "Darčekové karty",
         "resend_gift_cards": "Znovu odoslať darčekové karty",
         "attempted_delivery_local_title": "zmeškané doručenie",
-        "attempted_delivery_local_description_html": "Nepodarilo sa nám doručiť vašu objednávku. <P8contact_us <\/ p8>, aby sme mohli naplánovať ďalšie doručenie.",
+        "attempted_delivery_local_description_html": "Nepodarilo sa nám doručiť vašu objednávku. %{contact_us}, aby sme mohli naplánovať ďalšie doručenie.",
         "thank_you_title_payment": "Vaša platba je potvrdená",
-        "thank_you_confirmed_order_with_email_payment": "Vykonali ste platbu u objednávky: %{date <\/ p8>.",
-        "thank_you_confirmed_order_with_phone_payment": "Vykonali ste platbu u objednávky: %{date <\/ p8>.",
-        "thank_you_confirmed_order_with_email_and_phone_payment": "Vykonali ste platbu u objednávky: %{date <\/ p8>.",
-        "order_status_confirmed_order_with_email_payment": "Vykonali ste platbu u objednávky: %{date <\/ p8>.",
-        "order_status_confirmed_order_with_phone_payment": "Vykonali ste platbu u objednávky: %{date <\/ p8>.",
-        "order_status_confirmed_order_with_email_and_phone_payment": "Vykonali ste platbu u objednávky: %{date <\/ p8>."
+        "thank_you_confirmed_order_with_email_payment": "Vykonali ste platbu u objednávky: %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Vykonali ste platbu u objednávky: %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Vykonali ste platbu u objednávky: %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Vykonali ste platbu u objednávky: %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Vykonali ste platbu u objednávky: %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Vykonali ste platbu u objednávky: %{date}."
       },
       "review": {
         "title": "prezrieť",
@@ -757,7 +757,7 @@
           "change_shipping_address_link_label": "Zmeniť dodaciu adresu",
           "change_shipping_method_link_label": "Zmeniť metódu dopravy",
           "change_payment_method_link_label": "Zmeniť platobnú metódu",
-          "pick_up_in_store_shipping_method_html": "Vyzdvihnúť v obchode %{location_name <\/ p8>"
+          "pick_up_in_store_shipping_method_html": "Vyzdvihnúť v obchode %{location_name}"
         }
       },
       "marketing": {
@@ -791,7 +791,7 @@
         "description_html": "Až budete nabudúce prechádzať pokladňou tu alebo v iných obchodoch využívajúcich Shopify, dostanete, v textovej správe kód, ktorý vám umožní bezpečne nakúpiť pomocou Shop Pay.",
         "mobile_phone_icon_alt": "mobilný telefón",
         "mobile_phone_number": "číslo mobilu",
-        "terms_and_privacy_html": "Pokračovaním vyjadrujete súhlas so %{privacy_href <\/ p8> a %{terms_href <\/ p8> Shop Pay.",
+        "terms_and_privacy_html": "Pokračovaním vyjadrujete súhlas so %{privacy_href} a %{terms_href} Shop Pay.",
         "errors": {
           "optin": "Shop Pay nie je k dispozícii"
         },
@@ -806,50 +806,50 @@
         "title": "notifikácia"
       },
       "order_payment_collection": {
-        "custom_line_item_description": "Čiastka na zaplatenie za objednávku %{order_name <\/ p8>",
-        "additional_payment_requested": "Je nutné zaplatiť sumu %{total_outstanding <\/ p8>",
-        "checkout_review_and_pay": "Vaša objednávka %{order_name <\/ p8> bola aktualizovaná. Skontrolujte zmeny a potom objednávku potvrďte zaplatením.",
-        "order_updated_on": "Vaša objednávka bola aktualizovaná dňa: %{last_edited_at <\/ p8>.",
+        "custom_line_item_description": "Čiastka na zaplatenie za objednávku %{order_name}",
+        "additional_payment_requested": "Je nutné zaplatiť sumu %{total_outstanding}",
+        "checkout_review_and_pay": "Vaša objednávka %{order_name} bola aktualizovaná. Skontrolujte zmeny a potom objednávku potvrďte zaplatením.",
+        "order_updated_on": "Vaša objednávka bola aktualizovaná dňa: %{last_edited_at}.",
         "order_review_and_pay": "Vaša objednávka bola aktualizovaná. Skontrolujte ju a potvrďte zaplatením.",
         "pay_now": "zaplatiť",
         "changes_summary": {
           "added": {
             "one": "Pridané",
-            "other": "Pridaný %{count <\/ p8>",
-            "few": "Pridaný %{count <\/ p8>",
-            "many": "Pridaný %{count <\/ p8>"
+            "other": "Pridaný %{count}",
+            "few": "Pridaný %{count}",
+            "many": "Pridaný %{count}"
           },
           "removed": "odstránené",
-          "subtracted": "Odstránené: %{count <\/ p8>"
+          "subtracted": "Odstránené: %{count}"
         }
       },
       "change_currency": {
-        "currency_button_label": "<P8 currency <\/ p8> (%{ currency_symbol <\/ p8>)",
-        "credit_card_will_be_charged_html": "Z vašej platobnej karty bude strhnutá čiastka {{ amount <\/ p5>",
+        "currency_button_label": "%{ currency} (%{ currency_symbol})",
+        "credit_card_will_be_charged_html": "Z vašej platobnej karty bude strhnutá čiastka {{ amount }}",
         "payment_total_label": "Platba celkom",
-        "conversion_rate": "1 %{from_currency_code <\/ p8> = %{rate <\/ p8> %{to_currency_code <\/ p8>",
-        "change_currency_link": "Zmena na %{currency_name <\/ p8>",
-        "card_provider_fx_charges_warning": "Je možné, že váš poskytovateľ karty za transakcie v mene %{currency_code <\/ p8> účtuje poplatky.",
-        "currency_not_supported_by_shop": "Mena, ktorú ste vybrali, už nie je k dispozícii. Všetky ceny sú teraz uvedené v mene %{currency_code <\/ p8>."
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "change_currency_link": "Zmena na %{currency_name}",
+        "card_provider_fx_charges_warning": "Je možné, že váš poskytovateľ karty za transakcie v mene %{currency_code} účtuje poplatky.",
+        "currency_not_supported_by_shop": "Mena, ktorú ste vybrali, už nie je k dispozícii. Všetky ceny sú teraz uvedené v mene %{currency_code}."
       },
       "tips": {
         "title": "Pridať prepitné",
-        "description": "Prejavte svoju podporu tímu v obchode %{shop_name <\/ p8>",
+        "description": "Prejavte svoju podporu tímu v obchode %{shop_name}",
         "presets_description": "Vyberte percento prepitného",
         "custom_label": "vlastné prepitné",
         "add_tip": "Pridať prepitné",
         "update_tip": "aktualizovať prepitné",
         "message": "Ďakujeme a ceníme si toho",
-        "preset_label": "<P8tip_percent <\/ p8>%",
+        "preset_label": "%{tip_percent}%",
         "no_tip_label": "žiadne"
       },
       "open_graph_meta_tag": {
         "title_with_products": {
-          "zero": "Kúpiť produkt %{product_name <\/ p8>",
-          "one": "Kúpiť produkt %{product_name <\/ p8> a %{count <\/ p8> ďalšiu položku",
-          "other": "Kúpiť produkt %{product_name <\/ p8> a tento počet ďalších položiek: %{count <\/ p8>",
-          "few": "Kúpiť produkt %{product_name <\/ p8> a tento počet ďalších položiek: %{count <\/ p8>",
-          "many": "Kúpiť produkt %{product_name <\/ p8> a tento počet ďalších položiek: %{count <\/ p8>"
+          "zero": "Kúpiť produkt %{product_name}",
+          "one": "Kúpiť produkt %{product_name} a %{count} ďalšiu položku",
+          "other": "Kúpiť produkt %{product_name} a tento počet ďalších položiek: %{count}",
+          "few": "Kúpiť produkt %{product_name} a tento počet ďalších položiek: %{count}",
+          "many": "Kúpiť produkt %{product_name} a tento počet ďalších položiek: %{count}"
         }
       },
       "localized_fields": {
@@ -873,49 +873,49 @@
         "cart_updated_based_on_country": "Váš košík bol aktualizovaný na základe krajiny doručenia."
       },
       "subscriptions": {
-        "recurring_totals": "<P8 total price <\/ p8> čo %{ interval <\/ p8>",
+        "recurring_totals": "%{ total price} čo %{ interval}",
         "recurring_totals_with_policies": {
           "first_cycles": {
-            "one": "Prvá platba: %{total_price <\/ p8>",
-            "other": "Prvé platby (počet: %{count <\/ p8>): %{total_price <\/ p8> (1 platba)",
-            "few": "Prvé platby (počet: %{count <\/ p8>): %{total_price <\/ p8> (1 platba)",
-            "many": "Prvé platby (počet: %{count <\/ p8>): %{total_price <\/ p8> (1 platba)"
+            "one": "Prvá platba: %{total_price}",
+            "other": "Prvé platby (počet: %{count}): %{total_price} (1 platba)",
+            "few": "Prvé platby (počet: %{count}): %{total_price} (1 platba)",
+            "many": "Prvé platby (počet: %{count}): %{total_price} (1 platba)"
           },
-          "following_cycles": ", Potom %{total_price <\/ p8> čo %{interval <\/ p8>"
+          "following_cycles": ", Potom %{total_price} čo %{interval}"
         },
         "recurring_total_intervals": {
           "day": {
             "one": "deň",
-            "other": "<P8count <\/ p8> d.",
-            "few": "<P8count <\/ p8> d.",
-            "many": "<P8count <\/ p8> d."
+            "other": "%{count} d.",
+            "few": "%{count} d.",
+            "many": "%{count} d."
           },
           "week": {
             "one": "týždeň",
-            "other": "<P8count <\/ p8> týžd.",
-            "few": "<P8count <\/ p8> týžd.",
-            "many": "<P8count <\/ p8> týžd."
+            "other": "%{count} týžd.",
+            "few": "%{count} týžd.",
+            "many": "%{count} týžd."
           },
           "month": {
             "one": "mesiac",
-            "other": "<P8count <\/ p8> mes.",
-            "few": "<P8count <\/ p8> mes.",
-            "many": "<P8count <\/ p8> mes."
+            "other": "%{count} mes.",
+            "few": "%{count} mes.",
+            "many": "%{count} mes."
           },
           "year": {
             "one": "rok",
-            "other": "<P8count <\/ p8> r.",
-            "few": "<P8count <\/ p8> r.",
-            "many": "<P8count <\/ p8> r."
+            "other": "%{count} r.",
+            "few": "%{count} r.",
+            "many": "%{count} r."
           }
         },
-        "recurring_totals_with_initial_order_shipping_discount": "Prvá platba: %{total_price_with_discount <\/ p8>, potom %{recurring_total <\/ p8>",
+        "recurring_totals_with_initial_order_shipping_discount": "Prvá platba: %{total_price_with_discount}, potom %{recurring_total}",
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
-            "one": ", Potom %{count <\/ p8> platba vo výške %{total_price <\/ p8>",
-            "other": ", Potom ďalšie platby (celkom %{count <\/ p8>), každá vo výške %{total_price <\/ p8>",
-            "few": ", Potom ďalšie platby (celkom %{count <\/ p8>), každá vo výške %{total_price <\/ p8>",
-            "many": ", Potom ďalšie platby (celkom %{count <\/ p8>), každá vo výške %{total_price <\/ p8>"
+            "one": ", Potom %{count} platba vo výške %{total_price}",
+            "other": ", Potom ďalšie platby (celkom %{count}), každá vo výške %{total_price}",
+            "few": ", Potom ďalšie platby (celkom %{count}), každá vo výške %{total_price}",
+            "many": ", Potom ďalšie platby (celkom %{count}), každá vo výške %{total_price}"
           }
         }
       },
@@ -987,7 +987,7 @@
       "customer_already_used_once_per_customer_discount_notice": "U tejto zľavy bol dosiahnutý limit využitie",
       "gift_card_already_applied": "Kód už bol použitý na vašu pokladňu",
       "gift_card_code_invalid": "Kód je neplatný",
-      "gift_card_currency_mismatch": "Darčekové karty v mene %{gift_card_currency <\/ p8> nemožno použiť na objednávky v mene %{checkout_currency <\/ p8>",
+      "gift_card_currency_mismatch": "Darčekové karty v mene %{gift_card_currency} nemožno použiť na objednávky v mene %{checkout_currency}",
       "gift_card_depleted": "Na tejto darčekové karte nezostávajú žiadne prostriedky",
       "gift_card_disabled": "Darčeková karta je deaktivovaná",
       "gift_card_expired": "Darčekové karte skončila platnosť",
@@ -995,17 +995,17 @@
       "bad_domain": "obsahuje neplatný názov domény",
       "taken": "už sa používa",
       "contains_html_tags": "nemôže obsahovať HTML tagy",
-      "too_short": "je príliš krátke (min. počet znakov je %{count <\/ p8>)",
-      "too_long": "je príliš dlhé (max. počet znakov je %{count <\/ p8>)",
+      "too_short": "je príliš krátke (min. počet znakov je %{count})",
+      "too_long": "je príliš dlhé (max. počet znakov je %{count})",
       "password_mismatch": "musí zodpovedať zadanému heslu.",
       "contains_spaces": "začína alebo končí medzerami.",
       "email_domain_invalid": "poskytovateľ nie je podporovaný",
-      "invalid_for_country": "neplatí pre krajinu %{country <\/ p8>",
-      "invalid_for_country_and_province": "neplatí pre provinciu %{province <\/ p8> a krajinu %{country <\/ p8>",
-      "invalid_province_in_country": "nie je platnou provincií v krajine %{country <\/ p8>",
-      "invalid_state_in_country": "nie je platným štátom v krajine %{country <\/ p8>",
-      "invalid_region_in_country": "nie je platným regiónom v krajine %{country <\/ p8>",
-      "less_than_or_equal_to": "musí byť menšie alebo rovné %{count <\/ p8>",
+      "invalid_for_country": "neplatí pre krajinu %{country}",
+      "invalid_for_country_and_province": "neplatí pre provinciu %{province} a krajinu %{country}",
+      "invalid_province_in_country": "nie je platnou provincií v krajine %{country}",
+      "invalid_state_in_country": "nie je platným štátom v krajine %{country}",
+      "invalid_region_in_country": "nie je platným regiónom v krajine %{country}",
+      "less_than_or_equal_to": "musí byť menšie alebo rovné %{count}",
       "not_supported": "nie je podporované",
       "full_name_required": "Zadajte meno a priezvisko",
       "invalid_for_card_type": "nie je platné",
@@ -1015,7 +1015,7 @@
       "invalid_start_date_or_issue_number_for_debit": "je požadované platné počiatočný dátum alebo číslo vydania",
       "invalid_expiry_year": "nie je platným rokom vypršania platnosti",
       "reset_password_html": "Táto e-mailová adresa je už spojená s nejakým účtom. Pokiaľ tento účet patrí vám, môžete <a href=\"\/account\/login#recover\"> resetovať heslo <\/a>",
-      "verify_email": "Poslali sme e-mail na adresu %{customer_email <\/ p8>. Kliknite na zahrnutý odkaz a overte tak svoju e-mailovú adresu.",
+      "verify_email": "Poslali sme e-mail na adresu %{customer_email}. Kliknite na zahrnutý odkaz a overte tak svoju e-mailovú adresu.",
       "blocked_address": "Táto lokalita nie je podporovaná."
     },
     "notices": {
@@ -1070,19 +1070,19 @@
         "cash_on_delivery": "Platba na dobierku (COD)"
       },
       "cart": {
-        "only_n_items_available": "Do košíku môžete pridať iba: %{count <\/ p8> %{name <\/ p8>.",
-        "too_many_items_in_cart": "Do košíka nemôžete pridať viac položiek %{name <\/ p8>.",
+        "only_n_items_available": "Do košíku môžete pridať iba: %{count} %{name}.",
+        "too_many_items_in_cart": "Do košíka nemôžete pridať viac položiek %{name}.",
         "all_items_in_cart": "<transcy>V košíku máte všetko: %{count} %{name}.<\/transcy>",
         "empty_update": "nemožno aktualizovať prázdny košík",
         "missing_parameters": "neexistuje platné id alebo parameter riadku",
         "generic_error": "chyba košíka",
-        "too_many_line_items_error": "Váš košík nemôže obsahovať viac predmetov ako: %{max <\/ p8>.",
+        "too_many_line_items_error": "Váš košík nemôže obsahovať viac predmetov ako: %{max}.",
         "link_expired": "Platnosť odkazu vypršala",
         "link_no_longer_exists": "Odkaz už neexistuje.",
         "stock_problems_html": "Jedna alebo niekoľko položiek už neexistuje. Vytvorili sme <a href='%{link} '> aktualizovaný košík <\/a>.",
         "changed": "Košík sa zmenil",
         "items_changed": "Zmenila sa jedna alebo viac položiek.",
-        "product_sold_out": "Produkt \"%{name <\/ p8>\" je už vypredaný.",
+        "product_sold_out": "Produkt \"%{name}\" je už vypredaný.",
         "variant_not_found": "Variantu nemožno nájsť",
         "variant_requires_selling_plan": "Variantu je možné kúpiť iba v rámci predajného plánu.",
         "shipping_address_not_required": "Tento košík nevyžaduje expedíciu",
@@ -1091,12 +1091,12 @@
       }
     },
     "cart": {
-      "discounts_with_count": "Počet použitých zliav: %{count <\/ p8>"
+      "discounts_with_count": "Počet použitých zliav: %{count}"
     }
   },
   "sections": {
     "cart": {
-      "remove_title": "Odobrať: {{ title <\/ p5>",
+      "remove_title": "Odobrať: {{ title }}",
       "subtotal": "Medzisúčet",
       "new_subtotal": "nový medzisúčet",
       "note": "Zvláštne pokyny k objednávke",
@@ -1132,7 +1132,7 @@
     },
     "featured_collection": {
       "view_all": "zobraziť všetko",
-      "view_all_label": "Zobraziť všetky produkty v kolekcii {{ collection_name <\/ p5>"
+      "view_all_label": "Zobraziť všetky produkty v kolekcii {{ collection_name }}"
     },
     "collection_list": {
       "view_all": "zobraziť všetko"
@@ -1147,27 +1147,27 @@
       "filter_by_label": "filtrovať:",
       "filter_button": "Filtrovať",
       "filters_selected": {
-        "one": "Vybraných: {{ count <\/ p5>",
-        "other": "Vybraných: {{ count <\/ p5>"
+        "one": "Vybraných: {{ count }}",
+        "other": "Vybraných: {{ count }}"
       },
-      "max_price": "Najvyššia cena je {{ price <\/ p5>",
+      "max_price": "Najvyššia cena je {{ price }}",
       "product_count": {
-        "one": "<P5product_count <\/ p5> z {{ count <\/ p5> produktu",
-        "other": "<P5product_count <\/ p5> z {{ count <\/ p5> produktov"
+        "one": "{{ product_count }} z {{ count }} produktu",
+        "other": "{{ product_count }} z {{ count }} produktov"
       },
       "product_count_simple": {
-        "one": "Počet produktov: {{ count <\/ p5>",
-        "other": "Počet produktov: {{ count <\/ p5>"
+        "one": "Počet produktov: {{ count }}",
+        "other": "Počet produktov: {{ count }}"
       },
       "reset": "obnoviť",
       "sort_button": "zoradiť",
       "sort_by_label": "Zoradiť podľa:",
       "title": "Kolekcia",
       "to": "do",
-      "use_fewer_filters_html": "Môžete použiť menej filtrov alebo <a class=\"{{ class }} \"href =\" {{ link <\/ p5> \"> vymazať všetko <\/a>."
+      "use_fewer_filters_html": "Môžete použiť menej filtrov alebo <a class=\"{{ class }} \"href =\" {{ link }} \"> vymazať všetko <\/a>."
     },
     "video": {
-      "load_video": "Načítať video: {{ description <\/ p5>"
+      "load_video": "Načítať video: {{ description }}"
     }
   },
   "general": {
@@ -1180,7 +1180,7 @@
       "login_form_submit": "zadať",
       "modal": "Modálne okno hesla",
       "admin_link_html": "Ste majiteľom obchodu? <T0> Prihláste sa tu <\/a>",
-      "powered_by_shopify_html": "Obchod bude využívať platformu {{ shopify <\/ p5>"
+      "powered_by_shopify_html": "Obchod bude využívať platformu {{ shopify }}"
     },
     "social": {
       "alt_text": {
@@ -1203,7 +1203,7 @@
     "continue_shopping": "Pokračovať v nákupe",
     "pagination": {
       "label": "Stránkovanie",
-      "page": "Strana {{ number <\/ p5>",
+      "page": "Strana {{ number }}",
       "next": "Ďalšia stránka",
       "previous": "Predchádzajúca stránka"
     },
@@ -1211,7 +1211,7 @@
       "search": "hľadanie"
     },
     "cart": {
-      "view": "Zobraziť košík ({{ count <\/ p5>)",
+      "view": "Zobraziť košík ({{ count }})",
       "item_added": "Položka bola pridaná do košíka"
     },
     "share": {
@@ -1240,7 +1240,7 @@
     },
     "reset_password": {
       "title": "Resetujte heslo účtu",
-      "subtext": "Zadajte nové heslo pre {{ email <\/ p5>",
+      "subtext": "Zadajte nové heslo pre {{ email }}",
       "password": "heslo",
       "password_confirm": "potvrdiť heslo",
       "submit": "resetovať heslo"
@@ -1248,11 +1248,11 @@
   },
   "gift_cards": {
     "issued": {
-      "title": "Tu je vaša darčeková karta v hodnote {{ value <\/ p5> pre obchod {{ shop <\/ p5>!",
+      "title": "Tu je vaša darčeková karta v hodnote {{ value }} pre obchod {{ shop }}!",
       "subtext": "Vaša darčeková karta",
       "gift_card_code": "Kód darčekové karty",
       "shop_link": "Pokračovať v nákupe",
-      "remaining_html": "Zostávajúca čiastka: {{ balance <\/ p5>",
+      "remaining_html": "Zostávajúca čiastka: {{ balance }}",
       "add_to_apple_wallet": "Pridať do Apple Wallet",
       "qr_image_alt": "QR kód: po naskenovaní môžete uplatniť svoju darčekovú kartu",
       "copy_code": "kopírovať kód",
@@ -1286,15 +1286,15 @@
     "previous_slide": "snímka vľavo",
     "loading": "Načítanie ...",
     "total_reviews": "celkový počet recenzií",
-    "star_reviews_info": "<P5rating_value <\/ p5> z {{ rating_max <\/ p5> hviezdičiek"
+    "star_reviews_info": "{{ rating_value }} z {{ rating_max }} hviezdičiek"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
-      "read_more_title": "Prečítajte si viac: {{ title <\/ p5>",
+      "read_more_title": "Prečítajte si viac: {{ title }}",
       "comments": {
-        "one": "<P5count <\/ p5> komentár",
-        "other": "Počet komentárov: {{ count <\/ p5>"
+        "one": "{{ count }} komentár",
+        "other": "Počet komentárov: {{ count }}"
       },
       "moderated": "Upozorňujeme, že komentáre musia byť pred zverejnením schválené.",
       "comment_form_title": "Napíšte komentár",
@@ -1320,27 +1320,27 @@
       "product_variants": "varianty produktu",
       "media": {
         "open_featured_media": "Otvoriť vybraný multimediálny obsah v zobrazení galérie",
-        "open_media": "Otvoriť multimediálny obsah {{ index <\/ p5> v zobrazení galérie",
+        "open_media": "Otvoriť multimediálny obsah {{ index }} v zobrazení galérie",
         "play_model": "Prehrať v 3D prehliadači",
         "play_video": "prehrať video"
       },
       "quantity": {
         "label": "množstvo",
-        "input_label": "Množstvo produktu {{ product <\/ p5>",
-        "increase": "Zvýšiť množstvo produktu {{ product <\/ p5>",
-        "decrease": "Znížiť množstvo produktu {{ product <\/ p5>"
+        "input_label": "Množstvo produktu {{ product }}",
+        "increase": "Zvýšiť množstvo produktu {{ product }}",
+        "decrease": "Znížiť množstvo produktu {{ product }}"
       },
       "pickup_availability": {
         "view_store_info": "Zobraziť informácie o osobnom odbere",
         "check_other_stores": "Skontrolovať dostupnosť v ostatných obchodoch",
         "pick_up_available": "Vyzdvihnutie k dispozícii",
-        "pick_up_available_at_html": "Vyzdvihnutie je možné v lokalite <span class=\"color-foreground\"> {{ location_name <\/ p5> <\/span>",
-        "pick_up_unavailable_at_html": "Vyzdvihnutie nie je momentálne v lokalite <span class=\"color-foreground\"> {{ location_name <\/ p5> <\/span> k dispozícii",
+        "pick_up_available_at_html": "Vyzdvihnutie je možné v lokalite <span class=\"color-foreground\"> {{ location_name }} <\/span>",
+        "pick_up_unavailable_at_html": "Vyzdvihnutie nie je momentálne v lokalite <span class=\"color-foreground\"> {{ location_name }} <\/span> k dispozícii",
         "unavailable": "Dostupnosť vyzdvihnutie nebolo možné načítať",
         "refresh": "aktualizovať"
       },
       "price": {
-        "from_price_html": "Od {{ price <\/ p5>",
+        "from_price_html": "Od {{ price }}",
         "regular_price": "Bežná cena",
         "sale_price": "Výpredajová cena",
         "unit_price": "jednotková cena"
@@ -1349,7 +1349,7 @@
       "sold_out": "Vypredané",
       "unavailable": "Nie je k dispozícii",
       "vendor": "dodávateľ",
-      "video_exit_message": "<P5title <\/ p5> otvorí v rovnakom okne video na celej obrazovke.",
+      "video_exit_message": "{{ title }} otvorí v rovnakom okne video na celej obrazovke.",
       "view_full_details": "Zobraziť všetky podrobnosti",
       "xr_button": "Zobraziť vo vašom priestore",
       "xr_button_label": "Zobraziť vo vašom priestore: Umožňuje načítať položku v okne rozšírenej reality"
@@ -1360,11 +1360,11 @@
   },
   "templates": {
     "search": {
-      "no_results": "Neboli nájdené žiadne výsledky pre {{ terms <\/ p5>. Skontrolujte pravopis alebo zadajte iné slovo či slovné spojenie.",
+      "no_results": "Neboli nájdené žiadne výsledky pre {{ terms }}. Skontrolujte pravopis alebo zadajte iné slovo či slovné spojenie.",
       "page": "stránka",
       "results_with_count": {
-        "one": "Pre dotaz {{  terms <\/ p5> bol nájdený {{  count <\/ p5> výsledok",
-        "other": "Pre dotaz {{  terms <\/ p5> bol nájdený tento počet výsledkov: {{  count <\/ p5>"
+        "one": "Pre dotaz {{  terms }} bol nájdený {{  count }} výsledok",
+        "other": "Pre dotaz {{  terms }} bol nájdený tento počet výsledkov: {{  count }}"
       },
       "title": "výsledky hľadania"
     },
