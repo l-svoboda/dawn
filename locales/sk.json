@@ -1072,7 +1072,7 @@
       "cart": {
         "only_n_items_available": "Do košíku môžete pridať iba: %{count <\/ p8> %{name <\/ p8>.",
         "too_many_items_in_cart": "Do košíka nemôžete pridať viac položiek %{name <\/ p8>.",
-        "all_items_in_cart": "V košíku máte všetko: %{count <\/ p8> %{name <\/ p8>.",
+        "all_items_in_cart": "<transcy>V košíku máte všetko: %{count} %{name}.<\/transcy>",
         "empty_update": "nemožno aktualizovať prázdny košík",
         "missing_parameters": "neexistuje platné id alebo parameter riadku",
         "generic_error": "chyba košíka",
