@@ -1106,7 +1106,7 @@
       "cart_quantity_error_html": "Do košíku môžete pridať len nasledujúce množstvo danej položky: [quantity].",
       "taxes_and_shipping_policy_at_checkout_html": "Dane a <a href=\"{{ link }} \"> poštovné <\/a> sa vypočítajú na pokladni",
       "taxes_included_but_shipping_at_checkout": "Príslušná daň a poštovné sa vypočítajú na pokladni",
-      "taxes_included_and_shipping_policy_html": "Vrátane dane. <T0> \"> Poštovné <\/a> sa vypočíta na pokladni.",
+      "taxes_included_and_shipping_policy_html": "<transcy>Vrátane dane. <t0> <a>Poštovné<\/a>  sa vypočíta na pokladni.<\/t0><\/transcy>",
       "taxes_and_shipping_at_checkout": "Dane a poštovné sa vypočítajú na pokladni",
       "headings": {
         "product": "produkt",
