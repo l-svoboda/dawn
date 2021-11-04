@@ -51,7 +51,7 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Halloweenská akce",
+        "title": "iParada Friday Every Day",
         "collection": "iphone",
         "products_to_show": 4,
         "show_view_all": true,
