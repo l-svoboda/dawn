@@ -102,6 +102,20 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/400x100.png",
+          "logo_max_width": 170,
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
+        }
       }
     },
     "content_for_index": [
