@@ -284,12 +284,6 @@
           "settings": {
           }
         },
-        "1ac8d2b8-c198-43d2-b405-ecc2e4328f2c": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "dropdown"
-          }
-        },
         "1634545652d3b184b7-6": {
           "type": "buy_buttons",
           "settings": {
@@ -307,12 +301,11 @@
         "882f2cc6-95cf-47dc-8a21-5dd308e50e35",
         "1634545652d3b184b7-1",
         "1634545652d3b184b7-3",
-        "1ac8d2b8-c198-43d2-b405-ecc2e4328f2c",
         "1634545652d3b184b7-6",
         "1634545652d3b184b7-7"
       ],
       "settings": {
-        "product": "iphone-8",
+        "product": "iphone-11-pro",
         "secondary_background": false,
         "enable_video_looping": false
       }
