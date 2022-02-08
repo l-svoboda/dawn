@@ -25,19 +25,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "28642237-b798-4ea6-b899-b795b68c6ed6": {
-            "type": "announcement",
-            "settings": {
-              "text": "15.12.2021 až 2.1.2022 budeme mít zavřeno",
-              "color_scheme": "accent-2",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "28642237-b798-4ea6-b899-b795b68c6ed6"
-        ],
         "settings": {
         }
       },
